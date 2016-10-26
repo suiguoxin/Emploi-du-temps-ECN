@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option">
+        <item>Info</item>
+        <item>RV</item>
+        <item>Robot</item>
+        <item>Sante</item>
+    </string-array>
+</resources>

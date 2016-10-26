@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Emploi du temps</string>
+    <string name="action_settings">Settings</string>
+    <string name="setbtn">SET</string>
+    <string name="diverbtn">DIVER</string>
+    <string name="current">semaine 42</string>
+
+    <string name="pas_de_cour">Pas De Cour !</string>
+
+    <string name="periode1">08:00\n1</string>
+    <string name="periode2">09:00\n2</string>
+    <string name="periode3">10:15\n3</string>
+    <string name="periode4">11:15\n4</string>
+    <string name="periode5">13:45\n5</string>
+    <string name="periode6">14:45\n6</string>
+    <string name="periode7">16:00\n7</string>
+    <string name="periode8">17:00\n8</string>
+    <string name="periode9">18:15\n7</string>
+    <string name="periode10">19:15\n8</string>
+
+    <string name="title_info">Mes infos</string>
+    <string name="choix_annee">Année</string>
+    <string name="choix_option">Option</string>
+    <string name="choix_groupe">Groupe</string>
+
+    <string name="confirmer">Confirmer</string>
+    <string name="annuler">Annuler</string>
+
+
+
+
+</resources>

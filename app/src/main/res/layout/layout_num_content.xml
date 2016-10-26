@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="700dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode1" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode2" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode3" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode4" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode5" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode6" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode7" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode8" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode9" />
+
+    <TextView
+        style="@style/style_text_num"
+        android:text="@string/periode10" />
+
+</LinearLayout>
