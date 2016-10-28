@@ -1,0 +1,4566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gridttss.xsl"?>
+
+<timetable>
+<option combined="0" totalweeks="0" showemptydays="1" dayclass="reverse" titles="1" timesConditional="1">
+<link href="p16643.xml" class="xml">Version HTML imprimable</link>
+<weeks>Semaines</weeks>
+<dates>Dates</dates>
+<week>Semaine</week>
+<date>Date</date>
+<all>Toutes les semaines</all>
+<notes>Remarques</notes>
+<id>ID</id>
+<eventname>Nom de l'événement</eventname>
+<selectwk>Sélectionner une semaine</selectwk>
+<day>Jour</day>
+<timeevent>Horaire / événement</timeevent>
+<weekind>Semaine(s)</weekind>
+<details>Détails</details>
+<custom1>Custom 1</custom1>
+<custom2>Custom 2</custom2>
+<custom3>Custom 3</custom3>
+<footer>Publié 19/10/2016 13:27:58 - Ecole Centrale de Nantes<br />Créé par 
+<a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
+<dept>Département</dept>
+<evcat>Catégorie d'événement</evcat>
+<times>Heures</times>
+<subheading>Emploi du temps Étudiant - OD_INFO, OD_INFO</subheading></option>
+<property />
+<period id="0" col="4" times="08:00 - 10:00" />
+<period id="1" col="8" times="10:15 - 12:15" />
+<period id="2" col="12" times="12:15 - 13:45" />
+<period id="3" col="16" times="13:45 - 15:45" />
+<period id="4" col="20" times="16:00 - 18:00" />
+<period id="5" col="24" times="18:15 - 20:15" />
+<period id="6" col="28" times="20:30 - 22:30" />
+<span id="0" date="22/08/2016" rawix="1" rawlen="1">
+<description>Semaine 34, Semaine commençant le 22/08/2016</description>
+<title>34</title>
+<alleventweeks>YNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>22/08/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>23/08/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>24/08/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>25/08/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>26/08/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>27/08/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>28/08/2016</date>
+<row id="0" /></day></span>
+<span id="1" date="29/08/2016" rawix="2" rawlen="1">
+<description>Semaine 35, Semaine commençant le 29/08/2016</description>
+<title>35</title>
+<alleventweeks>NYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>29/08/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>30/08/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>31/08/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>01/09/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>02/09/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>03/09/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>04/09/2016</date>
+<row id="0" /></day></span>
+<span id="2" date="05/09/2016" rawix="3" rawlen="1">
+<description>Semaine 36, Semaine commençant le 05/09/2016</description>
+<title>36</title>
+<alleventweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>05/09/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>06/09/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>07/09/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>08/09/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>09/09/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>10/09/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>11/09/2016</date>
+<row id="0" /></day></span>
+<span id="3" date="12/09/2016" rawix="4" rawlen="1">
+<description>Semaine 37, Semaine commençant le 12/09/2016</description>
+<title>37</title>
+<alleventweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>12/09/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>13/09/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>14/09/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>15/09/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>16/09/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>17/09/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>18/09/2016</date>
+<row id="0" /></day></span>
+<span id="4" date="19/09/2016" rawix="5" rawlen="1">
+<description>Semaine 38, Semaine commençant le 19/09/2016</description>
+<title>38</title>
+<alleventweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>19/09/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>20/09/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>21/09/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>22/09/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>23/09/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>24/09/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>25/09/2016</date>
+<row id="0" /></day></span>
+<span id="5" date="26/09/2016" rawix="6" rawlen="1">
+<description>Semaine 39, Semaine commençant le 26/09/2016</description>
+<title>39</title>
+<alleventweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>26/09/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>27/09/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>28/09/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>29/09/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>30/09/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>01/10/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>02/10/2016</date>
+<row id="0" /></day></span>
+<span id="6" date="03/10/2016" rawix="7" rawlen="1">
+<description>Semaine 40, Semaine commençant le 03/10/2016</description>
+<title>40</title>
+<alleventweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>03/10/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>04/10/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>05/10/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>06/10/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>07/10/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>08/10/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>09/10/2016</date>
+<row id="0" /></day></span>
+<span id="7" date="10/10/2016" rawix="8" rawlen="1">
+<description>Semaine 41, Semaine commençant le 10/10/2016</description>
+<title>41</title>
+<alleventweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>10/10/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>11/10/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>12/10/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>13/10/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>14/10/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>15/10/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>16/10/2016</date>
+<row id="0" /></day></span>
+<span id="8" date="17/10/2016" rawix="9" rawlen="1">
+<description>Semaine 42, Semaine commençant le 17/10/2016</description>
+<title>42</title>
+<alleventweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>17/10/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>18/10/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>19/10/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>20/10/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>21/10/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>22/10/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>23/10/2016</date>
+<row id="0" /></day></span>
+<span id="9" date="24/10/2016" rawix="10" rawlen="1">
+<description>Semaine 43, Semaine commençant le 24/10/2016</description>
+<title>43</title>
+<alleventweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>24/10/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>25/10/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>26/10/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>27/10/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>28/10/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>29/10/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>30/10/2016</date>
+<row id="0" /></day></span>
+<span id="10" date="31/10/2016" rawix="11" rawlen="1">
+<description>Semaine 44, Semaine commençant le 31/10/2016</description>
+<title>44</title>
+<alleventweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>31/10/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>01/11/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>02/11/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>03/11/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>04/11/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>05/11/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>06/11/2016</date>
+<row id="0" /></day></span>
+<span id="11" date="07/11/2016" rawix="12" rawlen="1">
+<description>Semaine 45, Semaine commençant le 07/11/2016</description>
+<title>45</title>
+<alleventweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>07/11/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>08/11/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>09/11/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>10/11/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>11/11/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>12/11/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>13/11/2016</date>
+<row id="0" /></day></span>
+<span id="12" date="14/11/2016" rawix="13" rawlen="1">
+<description>Semaine 46, Semaine commençant le 14/11/2016</description>
+<title>46</title>
+<alleventweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>14/11/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>15/11/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>16/11/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>17/11/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>18/11/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>19/11/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>20/11/2016</date>
+<row id="0" /></day></span>
+<span id="13" date="21/11/2016" rawix="14" rawlen="1">
+<description>Semaine 47, Semaine commençant le 21/11/2016</description>
+<title>47</title>
+<alleventweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>21/11/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>22/11/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>23/11/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>24/11/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>25/11/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>26/11/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>27/11/2016</date>
+<row id="0" /></day></span>
+<span id="14" date="28/11/2016" rawix="15" rawlen="1">
+<description>Semaine 48, Semaine commençant le 28/11/2016</description>
+<title>48</title>
+<alleventweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>28/11/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>29/11/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>30/11/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>01/12/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>02/12/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>03/12/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>04/12/2016</date>
+<row id="0" /></day></span>
+<span id="15" date="05/12/2016" rawix="16" rawlen="1">
+<description>Semaine 49, Semaine commençant le 05/12/2016</description>
+<title>49</title>
+<alleventweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>05/12/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>06/12/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>07/12/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>08/12/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>09/12/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>10/12/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>11/12/2016</date>
+<row id="0" /></day></span>
+<span id="16" date="12/12/2016" rawix="17" rawlen="1">
+<description>Semaine 50, Semaine commençant le 12/12/2016</description>
+<title>50</title>
+<alleventweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>12/12/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>13/12/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>14/12/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>15/12/2016</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>16/12/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>17/12/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>18/12/2016</date>
+<row id="0" /></day></span>
+<span id="17" date="19/12/2016" rawix="18" rawlen="1">
+<description>Semaine 51, Semaine commençant le 19/12/2016</description>
+<title>51</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>19/12/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>20/12/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>21/12/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>22/12/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>23/12/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>24/12/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>25/12/2016</date>
+<row id="0" /></day></span>
+<span id="18" date="26/12/2016" rawix="19" rawlen="1">
+<description>Semaine 52, Semaine commençant le 26/12/2016</description>
+<title>52</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>26/12/2016</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>27/12/2016</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>28/12/2016</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>29/12/2016</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>30/12/2016</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>31/12/2016</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>01/01/2017</date>
+<row id="0" /></day></span>
+<span id="19" date="02/01/2017" rawix="20" rawlen="1">
+<description>Semaine 1, Semaine commençant le 02/01/2017</description>
+<title>1</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>02/01/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>03/01/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>04/01/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>05/01/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>06/01/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>07/01/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>08/01/2017</date>
+<row id="0" /></day></span>
+<span id="20" date="09/01/2017" rawix="21" rawlen="1">
+<description>Semaine 2, Semaine commençant le 09/01/2017</description>
+<title>2</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>09/01/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>10/01/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>11/01/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>12/01/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>13/01/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>14/01/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>15/01/2017</date>
+<row id="0" /></day></span>
+<span id="21" date="16/01/2017" rawix="22" rawlen="1">
+<description>Semaine 3, Semaine commençant le 16/01/2017</description>
+<title>3</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>16/01/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>17/01/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>18/01/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>19/01/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>20/01/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>21/01/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>22/01/2017</date>
+<row id="0" /></day></span>
+<span id="22" date="23/01/2017" rawix="23" rawlen="1">
+<description>Semaine 4, Semaine commençant le 23/01/2017</description>
+<title>4</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>23/01/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>24/01/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>25/01/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>26/01/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>27/01/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>28/01/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>29/01/2017</date>
+<row id="0" /></day></span>
+<span id="23" date="30/01/2017" rawix="24" rawlen="1">
+<description>Semaine 5, Semaine commençant le 30/01/2017</description>
+<title>5</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>30/01/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>31/01/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>01/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>02/02/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>03/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>04/02/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>05/02/2017</date>
+<row id="0" /></day></span>
+<span id="24" date="06/02/2017" rawix="25" rawlen="1">
+<description>Semaine 6, Semaine commençant le 06/02/2017</description>
+<title>6</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>06/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>07/02/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>08/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>09/02/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>10/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>11/02/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>12/02/2017</date>
+<row id="0" /></day></span>
+<span id="25" date="13/02/2017" rawix="26" rawlen="1">
+<description>Semaine 7, Semaine commençant le 13/02/2017</description>
+<title>7</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>13/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>14/02/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>15/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>16/02/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>17/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>18/02/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>19/02/2017</date>
+<row id="0" /></day></span>
+<span id="26" date="20/02/2017" rawix="27" rawlen="1">
+<description>Semaine 8, Semaine commençant le 20/02/2017</description>
+<title>8</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>20/02/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>21/02/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>22/02/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>23/02/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>24/02/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>25/02/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>26/02/2017</date>
+<row id="0" /></day></span>
+<span id="27" date="27/02/2017" rawix="28" rawlen="1">
+<description>Semaine 9, Semaine commençant le 27/02/2017</description>
+<title>9</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>27/02/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>28/02/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>01/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>02/03/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>03/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="5">
+<name>samedi</name>
+<date>04/03/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>05/03/2017</date>
+<row id="0" /></day></span>
+<span id="28" date="06/03/2017" rawix="29" rawlen="1">
+<description>Semaine 10, Semaine commençant le 06/03/2017</description>
+<title>10</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>06/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>07/03/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>08/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>09/03/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>10/03/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>11/03/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>12/03/2017</date>
+<row id="0" /></day></span>
+<span id="29" date="13/03/2017" rawix="30" rawlen="1">
+<description>Semaine 11, Semaine commençant le 13/03/2017</description>
+<title>11</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>13/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>14/03/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>15/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>16/03/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>17/03/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>18/03/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>19/03/2017</date>
+<row id="0" /></day></span>
+<span id="30" date="20/03/2017" rawix="31" rawlen="1">
+<description>Semaine 12, Semaine commençant le 20/03/2017</description>
+<title>12</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>20/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>21/03/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>22/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>23/03/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>24/03/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>25/03/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>26/03/2017</date>
+<row id="0" /></day></span>
+<span id="31" date="27/03/2017" rawix="32" rawlen="1">
+<description>Semaine 13, Semaine commençant le 27/03/2017</description>
+<title>13</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>27/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="1">
+<name>mardi</name>
+<date>28/03/2017</date>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>29/03/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>30/03/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>31/03/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>01/04/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>02/04/2017</date>
+<row id="0" /></day></span>
+<span id="32" date="03/04/2017" rawix="33" rawlen="1">
+<description>Semaine 14, Semaine commençant le 03/04/2017</description>
+<title>14</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>03/04/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>04/04/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>05/04/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>06/04/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>07/04/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>08/04/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>09/04/2017</date>
+<row id="0" /></day></span>
+<span id="33" date="10/04/2017" rawix="34" rawlen="1">
+<description>Semaine 15, Semaine commençant le 10/04/2017</description>
+<title>15</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>10/04/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>11/04/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>12/04/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>13/04/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>14/04/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>15/04/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>16/04/2017</date>
+<row id="0" /></day></span>
+<span id="34" date="17/04/2017" rawix="35" rawlen="1">
+<description>Semaine 16, Semaine commençant le 17/04/2017</description>
+<title>16</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>17/04/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>18/04/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>19/04/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>20/04/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>21/04/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>22/04/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>23/04/2017</date>
+<row id="0" /></day></span>
+<span id="35" date="24/04/2017" rawix="36" rawlen="1">
+<description>Semaine 17, Semaine commençant le 24/04/2017</description>
+<title>17</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>24/04/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>25/04/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>26/04/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>27/04/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>28/04/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>29/04/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>30/04/2017</date>
+<row id="0" /></day></span>
+<span id="36" date="01/05/2017" rawix="37" rawlen="1">
+<description>Semaine 18, Semaine commençant le 01/05/2017</description>
+<title>18</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>01/05/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>02/05/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>03/05/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>04/05/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>05/05/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>06/05/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>07/05/2017</date>
+<row id="0" /></day></span>
+<span id="37" date="08/05/2017" rawix="38" rawlen="1">
+<description>Semaine 19, Semaine commençant le 08/05/2017</description>
+<title>19</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>08/05/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>09/05/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>10/05/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>11/05/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>12/05/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>13/05/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>14/05/2017</date>
+<row id="0" /></day></span>
+<span id="38" date="15/05/2017" rawix="39" rawlen="1">
+<description>Semaine 20, Semaine commençant le 15/05/2017</description>
+<title>20</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>15/05/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>16/05/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>17/05/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>18/05/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>19/05/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>20/05/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>21/05/2017</date>
+<row id="0" /></day></span>
+<span id="39" date="22/05/2017" rawix="40" rawlen="1">
+<description>Semaine 21, Semaine commençant le 22/05/2017</description>
+<title>21</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>22/05/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>23/05/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>24/05/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>25/05/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>26/05/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>27/05/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>28/05/2017</date>
+<row id="0" /></day></span>
+<span id="40" date="29/05/2017" rawix="41" rawlen="1">
+<description>Semaine 22, Semaine commençant le 29/05/2017</description>
+<title>22</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>29/05/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>30/05/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>31/05/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>01/06/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>02/06/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>03/06/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>04/06/2017</date>
+<row id="0" /></day></span>
+<span id="41" date="05/06/2017" rawix="42" rawlen="1">
+<description>Semaine 23, Semaine commençant le 05/06/2017</description>
+<title>23</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>05/06/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>06/06/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>07/06/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>08/06/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>09/06/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>10/06/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>11/06/2017</date>
+<row id="0" /></day></span>
+<span id="42" date="12/06/2017" rawix="43" rawlen="1">
+<description>Semaine 24, Semaine commençant le 12/06/2017</description>
+<title>24</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>12/06/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>13/06/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>14/06/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>15/06/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>16/06/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>17/06/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>18/06/2017</date>
+<row id="0" /></day></span>
+<span id="43" date="19/06/2017" rawix="44" rawlen="1">
+<description>Semaine 25, Semaine commençant le 19/06/2017</description>
+<title>25</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>19/06/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>20/06/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>21/06/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>22/06/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>23/06/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>24/06/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>25/06/2017</date>
+<row id="0" /></day></span>
+<span id="44" date="26/06/2017" rawix="45" rawlen="1">
+<description>Semaine 26, Semaine commençant le 26/06/2017</description>
+<title>26</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>26/06/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>27/06/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>28/06/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>29/06/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>30/06/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>01/07/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>02/07/2017</date>
+<row id="0" /></day></span>
+<span id="45" date="03/07/2017" rawix="46" rawlen="1">
+<description>Semaine 27, Semaine commençant le 03/07/2017</description>
+<title>27</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>03/07/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>04/07/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>05/07/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>06/07/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>07/07/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>08/07/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>09/07/2017</date>
+<row id="0" /></day></span>
+<span id="46" date="10/07/2017" rawix="47" rawlen="1">
+<description>Semaine 28, Semaine commençant le 10/07/2017</description>
+<title>28</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>10/07/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>11/07/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>12/07/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>13/07/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>14/07/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>15/07/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>16/07/2017</date>
+<row id="0" /></day></span>
+<span id="47" date="17/07/2017" rawix="48" rawlen="1">
+<description>Semaine 29, Semaine commençant le 17/07/2017</description>
+<title>29</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>17/07/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>18/07/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>19/07/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>20/07/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>21/07/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>22/07/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>23/07/2017</date>
+<row id="0" /></day></span>
+<span id="48" date="24/07/2017" rawix="49" rawlen="1">
+<description>Semaine 30, Semaine commençant le 24/07/2017</description>
+<title>30</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>24/07/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>25/07/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>26/07/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>27/07/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>28/07/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>29/07/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>30/07/2017</date>
+<row id="0" /></day></span>
+<span id="49" date="31/07/2017" rawix="50" rawlen="1">
+<description>Semaine 31, Semaine commençant le 31/07/2017</description>
+<title>31</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNY</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<date>31/07/2017</date>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<date>01/08/2017</date>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<date>02/08/2017</date>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<date>03/08/2017</date>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<date>04/08/2017</date>
+<row id="0" /></day>
+<day id="5">
+<name>samedi</name>
+<date>05/08/2017</date>
+<row id="0" /></day>
+<day id="6">
+<name>dimanche</name>
+<date>06/08/2017</date>
+<row id="0" /></day></span>
+<event id="16831" timesort="08000900" colour="7FFF7F" date="05/09/2016" ecs="4" ecc="2" er="0" cellshare="1">
+<day>0</day>
+<prettytimes>08:00-09:00 Réunion</prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<category>Réunion</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Réunion de rentrée</notes></event>
+<event id="16847" timesort="08001000" colour="FFD27F" date="12/09/2016" ecs="4" ecc="4" er="0">
+<day>0</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16870" timesort="08001000" colour="FFD27F" date="19/09/2016" ecs="4" ecc="4" er="0">
+<day>0</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16882" timesort="08001000" colour="7F7FBF" date="26/09/2016" ecs="4" ecc="4" er="0">
+<day>0</day>
+<prettytimes>08:00-10:00 TP</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>TP</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP BDONN (INFO+URBA)</notes></event>
+<event id="16895" timesort="08001000" colour="FFD27F" date="03/10/2016" ecs="4" ecc="4" er="0">
+<day>0</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16902" timesort="08001000" colour="FFD27F" date="10/10/2016" ecs="4" ecc="4" er="0">
+<day>0</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16912" timesort="08001215" colour="FFD27F" date="17/10/2016" ecs="4" ecc="8" er="0">
+<day>0</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>42</prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16833" timesort="09001000" colour="FFFFFF" date="05/09/2016" ecs="6" ecc="2" er="0" cellshare="1">
+<day>0</day>
+<prettytimes>09:00-10:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>10:00</endtime>
+<category></category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Installation des logiciels</notes></event>
+<event id="16960" timesort="09001215" colour="FFD27F" date="14/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="16965" timesort="09001215" colour="FFD27F" date="21/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="17002" timesort="09001215" colour="FFD27F" date="28/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="17895" timesort="09001215" colour="FFD27F" date="12/12/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18518" timesort="09001215" colour="FFD27F" date="09/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18549" timesort="09001215" colour="FFD27F" date="16/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18554" timesort="09001215" colour="FFD27F" date="23/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18563" timesort="09001215" colour="FFD27F" date="30/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18615" timesort="09001215" colour="FFD27F" date="30/01/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18771" timesort="09001215" colour="FFD27F" date="06/02/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18826" timesort="09001215" colour="FFD27F" date="06/02/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18836" timesort="09001215" colour="FFD27F" date="13/02/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18837" timesort="09001215" colour="FFD27F" date="13/02/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18859" timesort="09001215" colour="FFD27F" date="27/02/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18860" timesort="09001215" colour="FFD27F" date="27/02/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18868" timesort="09001215" colour="FFD27F" date="06/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18869" timesort="09001215" colour="FFD27F" date="06/03/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18877" timesort="09001215" colour="FFD27F" date="13/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18878" timesort="09001215" colour="FFD27F" date="13/03/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18884" timesort="09001215" colour="FFD27F" date="20/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B1 (B001)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18885" timesort="09001215" colour="FFD27F" date="20/03/2017" ecs="6" ecc="6" er="1" sca="2">
+<day>0</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="16832" timesort="10151215" colour="FFFFFF" date="05/09/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Installation des logiciels</notes></event>
+<event id="16855" timesort="10151215" colour="BF7FBF" date="12/09/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 TD</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>B6 (B006)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TD BDONN (INFO+URBA)</notes></event>
+<event id="16872" timesort="10151215" colour="BF7FBF" date="19/09/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 TD</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C004 (C004)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TD BDONN (INFO+URBA)</notes></event>
+<event id="16886" timesort="10151215" colour="7F7FBF" date="26/09/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 TP</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="22600" timesort="10151215" colour="7F7FBF" date="10/10/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 TP</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Réservation demandée par J-Y MARTIN</notes></event>
+<event id="16953" timesort="10151215" colour="FFFFFF" date="07/11/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>45</prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>DS BDONN (INFO+URBA)</notes></event>
+<event id="17565" timesort="10151215" colour="FFD27F" date="05/12/2016" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18893" timesort="10151215" colour="FFFFFF" date="27/03/2017" ecs="8" ecc="4" er="0">
+<day>0</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS PAMEF et DS SYSIN</notes></event>
+<event id="16812" timesort="13451545" colour="FFD27F" date="05/09/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM Objet (INFO+URBA)</notes></event>
+<event id="16858" timesort="13451545" colour="FFD27F" date="12/09/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM OBJET (INFO+URBA)</notes></event>
+<event id="16873" timesort="13451545" colour="FFD27F" date="19/09/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM OBJET (INFO+URBA)</notes></event>
+<event id="18853" timesort="13451545" colour="7F7FBF" date="26/09/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>TP</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="16897" timesort="13451545" colour="FFD27F" date="03/10/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM OBJET (INFO+URBA)</notes></event>
+<event id="16903" timesort="13451545" colour="FFD27F" date="10/10/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM OBJET (INFO+URBA)</notes></event>
+<event id="16916" timesort="13451800" colour="7F7FBF" date="17/10/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>42</prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="16958" timesort="13451545" colour="FFFFFF" date="07/11/2016" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>45</prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>DS OBJET (INFO+URBA)</notes></event>
+<event id="16961" timesort="13451800" colour="FFD27F" date="14/11/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="16966" timesort="13451800" colour="FFD27F" date="21/11/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="17003" timesort="13451800" colour="FFD27F" date="28/11/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="17566" timesort="13451800" colour="FFD27F" date="05/12/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="18004" timesort="13451800" colour="FFD27F" date="12/12/2016" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="18545" timesort="13451800" colour="FFD27F" date="09/01/2017" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="18550" timesort="13451800" colour="FFD27F" date="16/01/2017" ecs="16" ecc="8" er="0">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="18555" timesort="13451545" colour="FFFFFF" date="23/01/2017" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS ANREC</notes></event>
+<event id="18616" timesort="13451700" colour="FFD27F" date="30/01/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B2 (B002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18618" timesort="13451800" colour="FFD27F" date="30/01/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM INTEC (INFO+MDBIT)</notes></event>
+<event id="18828" timesort="13451700" colour="FFD27F" date="06/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18827" timesort="13451800" colour="FFD27F" date="06/02/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM INTEC (INFO+MDBIT)</notes></event>
+<event id="18838" timesort="13451700" colour="FFD27F" date="13/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B2 (B002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18839" timesort="13451800" colour="FFD27F" date="13/02/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM INTEC (INFO+MDBIT)</notes></event>
+<event id="18861" timesort="13451700" colour="FFD27F" date="27/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18862" timesort="13451800" colour="FFD27F" date="27/02/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM INTEC (INFO+MDBIT)</notes></event>
+<event id="18870" timesort="13451700" colour="FFD27F" date="06/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B2 (B002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18871" timesort="13451800" colour="7F7FBF" date="06/03/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP INTEC (INFO+MDBIT)à</notes></event>
+<event id="18879" timesort="13451700" colour="FFD27F" date="13/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18880" timesort="13451800" colour="7F7FBF" date="13/03/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP INTEC (INFO+MDBIT)</notes></event>
+<event id="18886" timesort="13451700" colour="FFD27F" date="20/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B1 (B001)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18887" timesort="13451800" colour="7F7FBF" date="20/03/2017" ecs="16" ecc="8" er="1">
+<day>0</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP INTEC (INFO+MDBIT)</notes></event>
+<event id="18894" timesort="13451545" colour="FFFFFF" date="27/03/2017" ecs="16" ecc="4" er="0">
+<day>0</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS INTEC (INFO+MDBIT)</notes></event>
+<event id="18895" timesort="13451545" colour="FFFFFF" date="27/03/2017" ecs="16" ecc="4" er="1">
+<day>0</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS TREEL</notes></event>
+<event id="16835" timesort="16001800" colour="7F7FBF" date="05/09/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="16861" timesort="16001800" colour="FFD27F" date="12/09/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 CM</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16874" timesort="16001800" colour="7F7FBF" date="19/09/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="18852" timesort="16001800" colour="7F7FBF" date="26/09/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="16899" timesort="16001800" colour="7F7FBF" date="03/10/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="16904" timesort="16001800" colour="7F7FBF" date="10/10/2016" ecs="20" ecc="4" er="0">
+<day>0</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="18896" timesort="16001700" colour="FFFFFF" date="27/03/2017" ecs="20" ecc="2" er="0" scb="2">
+<day>0</day>
+<prettytimes>16:00-17:00 </prettytimes>
+<starttime>16:00</starttime>
+<endtime>17:00</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Debriefing</notes></event>
+<event id="22675" timesort="08001200" colour="FFFFFF" date="03/10/2016" ecs="4" ecc="7" er="0" scb="1">
+<day>1</day>
+<prettytimes>08:00-12:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:00</endtime>
+<category></category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>D04 (D004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Soutenances TFE et STING</notes></event>
+<event id="22677" timesort="08001200" colour="FFFFFF" date="10/10/2016" ecs="4" ecc="7" er="0" scb="1">
+<day>1</day>
+<prettytimes>08:00-12:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:00</endtime>
+<category></category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources></event>
+<event id="22671" timesort="09001200" colour="FFFFFF" date="26/09/2016" ecs="6" ecc="5" er="0" sca="2" scb="1">
+<day>1</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
+<category></category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>D04 (D004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Soutenance SING et TFE</notes></event>
+<event id="24332" timesort="13451545" colour="FFFFFF" date="10/10/2016" ecs="16" ecc="4" er="0">
+<day>1</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>SoutenanceRéservation demandée par J-Y MARTIN</notes></event>
+<event id="18897" timesort="13451545" colour="FFFFFF" date="27/03/2017" ecs="16" ecc="4" er="0">
+<day>1</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS ARSYS</notes></event>
+<event id="18898" timesort="13451800" colour="7F7FBF" date="27/03/2017" ecs="16" ecc="8" er="1">
+<day>1</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB (INFO+MDBIT)</notes></event>
+<event id="23721" timesort="10151215" colour="FF7FFF" date="10/10/2016" ecs="8" ecc="4" er="0">
+<day>2</day>
+<prettytimes>10:15-12:15 Journée partenaire</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>Journée partenaire</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>Réservation salles (Réservation salles) (0)</item></group>
+<room title="Salles">
+<item>Amphi B8 (ex B9) (Amphi B008)</item>
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Journées partenaires</notes></event>
+<event id="18899" timesort="10151215" colour="FFFFFF" date="27/03/2017" ecs="8" ecc="4" er="0">
+<day>2</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS SRICO</notes></event>
+<event id="22543" timesort="13451800" colour="FFD27F" date="26/09/2016" ecs="16" ecc="8" er="0">
+<day>2</day>
+<prettytimes>13:45-18:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Cours MADISRéservation demandée par J-Y MARTIN</notes></event>
+<event id="23970" timesort="13451545" colour="FFFFFF" date="03/10/2016" ecs="16" ecc="4" er="0">
+<day>2</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Soutenance</notes></event>
+<event id="24333" timesort="13451800" colour="FFFFFF" date="10/10/2016" ecs="16" ecc="8" er="0">
+<day>2</day>
+<prettytimes>13:45-18:00 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category></category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>SoutenanceRéservation demandée par J-Y MARTIN</notes></event>
+<event id="16962" timesort="13451545" colour="FFFFFF" date="14/11/2016" ecs="16" ecc="4" er="0">
+<day>2</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS GELOG</notes></event>
+<event id="18556" timesort="13451545" colour="FFD27F" date="23/01/2017" ecs="16" ecc="4" er="0">
+<day>2</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18671" timesort="13451700" colour="FFD27F" date="30/01/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18675" timesort="13451700" colour="FFD27F" date="30/01/2017" ecs="16" ecc="6" er="1" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18829" timesort="13451700" colour="FFD27F" date="06/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C004 (C004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18830" timesort="13451700" colour="FFD27F" date="06/02/2017" ecs="16" ecc="6" er="1" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18840" timesort="13451700" colour="FFD27F" date="13/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C102 (C102)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18841" timesort="13451700" colour="FFD27F" date="13/02/2017" ecs="16" ecc="6" er="1" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18863" timesort="13451700" colour="FFD27F" date="27/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18864" timesort="13451800" colour="7F7FBF" date="27/02/2017" ecs="16" ecc="8" er="1">
+<day>2</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB (INFO+MDBIT)</notes></event>
+<event id="18872" timesort="13451700" colour="FFD27F" date="06/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C004 (C004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18873" timesort="13451800" colour="7F7FBF" date="06/03/2017" ecs="16" ecc="8" er="1">
+<day>2</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB (INFO+MDBIT)</notes></event>
+<event id="18881" timesort="13451700" colour="FFD27F" date="13/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C004 (C004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18882" timesort="13451800" colour="7F7FBF" date="13/03/2017" ecs="16" ecc="8" er="1">
+<day>2</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB (INFO+MDBIT)</notes></event>
+<event id="18888" timesort="13451700" colour="FFD27F" date="20/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>2</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C004 (C004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18889" timesort="13451800" colour="7F7FBF" date="20/03/2017" ecs="16" ecc="8" er="1">
+<day>2</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB</notes></event>
+<event id="16968" timesort="14001700" colour="FFD27F" date="21/11/2016" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="17031" timesort="14001700" colour="FFD27F" date="28/11/2016" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="17647" timesort="14001700" colour="FFD27F" date="05/12/2016" ecs="19" ecc="3" er="0" sca="3">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18005" timesort="14001700" colour="FFD27F" date="12/12/2016" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18462" timesort="14001700" colour="FFD27F" date="02/01/2017" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>1</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18546" timesort="14001700" colour="FFD27F" date="09/01/2017" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="18551" timesort="14001700" colour="FFD27F" date="16/01/2017" ecs="19" ecc="3" er="0" sca="3" scb="2">
+<day>2</day>
+<prettytimes>14:00-17:00 CM</prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYRES</notes></event>
+<event id="17675" timesort="17001800" colour="FFFFFF" date="05/12/2016" ecs="22" ecc="2" er="0" cellshare="1">
+<day>2</day>
+<prettytimes>17:00-18:00 </prettytimes>
+<starttime>17:00</starttime>
+<endtime>18:00</endtime>
+<category></category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Présentation des projets</notes></event>
+<event id="16838" timesort="08001000" colour="FFD27F" date="05/09/2016" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16863" timesort="08001000" colour="FFD27F" date="12/09/2016" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16876" timesort="08001000" colour="FFD27F" date="19/09/2016" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16892" timesort="08001215" colour="FFD27F" date="26/09/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16894" timesort="08001215" colour="FFD27F" date="03/10/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16905" timesort="08001000" colour="FFD27F" date="10/10/2016" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16922" timesort="08001215" colour="FFD27F" date="17/10/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>42</prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16936" timesort="08001215" colour="FFD27F" date="31/10/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>44</prettyweeks>
+<rawweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16963" timesort="08001215" colour="FFD27F" date="14/11/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16984" timesort="08001215" colour="FFFFFF" date="14/11/2016" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="16970" timesort="08001215" colour="FFD27F" date="21/11/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16971" timesort="08001215" colour="FFFFFF" date="21/11/2016" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="16985" timesort="08001215" colour="FFFFFF" date="28/11/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="17254" timesort="08001215" colour="FFD27F" date="28/11/2016" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16986" timesort="08001215" colour="FFFFFF" date="05/12/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="17676" timesort="08001215" colour="FFD27F" date="05/12/2016" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16987" timesort="08001215" colour="FFFFFF" date="12/12/2016" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18006" timesort="08001215" colour="FFD27F" date="12/12/2016" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16988" timesort="08001215" colour="FFFFFF" date="02/01/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>1</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18490" timesort="08001215" colour="FFD27F" date="02/01/2017" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>1</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16989" timesort="08001215" colour="FFFFFF" date="09/01/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18547" timesort="08001215" colour="FFD27F" date="09/01/2017" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="16990" timesort="08001215" colour="FFFFFF" date="16/01/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18552" timesort="08001215" colour="FFD27F" date="16/01/2017" ecs="4" ecc="8" er="1">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV</notes></event>
+<event id="16991" timesort="08001215" colour="FFFFFF" date="23/01/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18678" timesort="08001215" colour="FFD27F" date="30/01/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="18831" timesort="08001215" colour="FFD27F" date="06/02/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="18842" timesort="08001215" colour="FFD27F" date="13/02/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="18865" timesort="08001215" colour="FFD27F" date="27/02/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="18874" timesort="08001215" colour="FFD27F" date="06/03/2017" ecs="4" ecc="8" er="0">
+<day>3</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="18890" timesort="08000900" colour="FFD27F" date="20/03/2017" ecs="4" ecc="2" er="0" cellshare="1">
+<day>3</day>
+<prettytimes>08:00-09:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="22175" timesort="09001030" colour="FFFFFF" date="19/09/2016" ecs="6" ecc="3" er="1" sca="2" scb="3">
+<day>3</day>
+<prettytimes>09:00-10:30 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>10:30</endtime>
+<category></category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>GO_1 (GO_1) (4)</item>
+<item>GO_2 (GO_2) (4)</item>
+<item>GO_3 (GO_3) (4)</item>
+<item>GO_4 (GO_4) (4)</item>
+<item>M1 (M1) (0)</item>
+<item>M2 (M2) (0)</item>
+<item>M3 (M3) (0)</item>
+<item>M4 (M4) (0)</item></group>
+<room title="Salle">
+<item>Amphi L (Amphi L)</item></room>
+<student title="Étudiants">
+<item>OD_C2Syst2E (OD_C2Syst2E)</item>
+<item>OD_GC (OD_GC)</item>
+<item>OD_GI (OD_GI)</item>
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_IPROD (OD_IPROD)</item>
+<item>OD_MATEPRO (OD_MATEPRO)</item>
+<item>OD_MATHAPPLI (OD_MATHAPPLI)</item>
+<item>OD_MDBIT (OD_MDBIT)</item>
+<item>OD_MSM (OD_MSM)</item>
+<item>OD_OCEAN (OD_OCEAN)</item>
+<item>OD_PHYCITE (OD_PHYCITE)</item>
+<item>OD_ROBOTIQUE (OD_ROBOTIQUE)</item>
+<item>OD_RV (OD_RV)</item>
+<item>OD_SANTE (OD_SANTE)</item>
+<item>OD_SIGMA (OD_SIGMA)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>Convocation exceptionnelle M.Arnaud POITOU</notes></event>
+<event id="18883" timesort="09001215" colour="BF7FBF" date="13/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>3</day>
+<prettytimes>09:00-12:15 TD</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks>11</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>B4 (B004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TD SRICO</notes></event>
+<event id="18891" timesort="09001215" colour="BF7FBF" date="20/03/2017" ecs="6" ecc="6" er="0" cellshare="1">
+<day>3</day>
+<prettytimes>09:00-12:15 TD</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>B4 (B004)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TD SRICO</notes></event>
+<event id="16837" timesort="10151215" colour="FFD27F" date="05/09/2016" ecs="8" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16866" timesort="10151215" colour="FFD27F" date="12/09/2016" ecs="8" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>37</prettyweeks>
+<rawweeks>NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16877" timesort="10151215" colour="FFD27F" date="19/09/2016" ecs="8" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16906" timesort="10151215" colour="7F7FBF" date="10/10/2016" ecs="8" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:15-12:15 TP</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP BDONN (INFO+URBA)</notes></event>
+<event id="16959" timesort="10151215" colour="FFFFFF" date="07/11/2016" ecs="8" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>45</prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS MADIS</notes></event>
+<event id="18559" timesort="10151215" colour="FFFFFF" date="23/01/2017" ecs="8" ecc="4" er="1">
+<day>3</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS MEDEV (INFO+RV)</notes></event>
+<event id="24334" timesort="16001800" colour="FFFFFF" date="10/10/2016" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>16:00-18:00 </prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category></category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>SoutenanceRéservation demandée par J-Y MARTIN</notes></event>
+<event id="20135" timesort="08001000" colour="FFD27F" date="29/08/2016" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>35</prettyweeks>
+<rawweeks>NYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources></event>
+<event id="16839" timesort="08001000" colour="FFD27F" date="05/09/2016" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16878" timesort="08001000" colour="FFD27F" date="19/09/2016" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MADIS</notes></event>
+<event id="16893" timesort="08001215" colour="FFD27F" date="26/09/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16901" timesort="08001215" colour="FFD27F" date="03/10/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>40</prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16909" timesort="08001215" colour="FFD27F" date="10/10/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16923" timesort="08001215" colour="FFD27F" date="17/10/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>42</prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16941" timesort="08001215" colour="FFD27F" date="31/10/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>44</prettyweeks>
+<rawweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="17785" timesort="08001000" colour="FFD27F" date="05/12/2016" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ANREC</notes></event>
+<event id="18072" timesort="08002230" colour="FFFFFF" date="05/12/2016" ecs="4" ecc="28" er="1">
+<day>4</day>
+<prettytimes>08:00-22:30 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>22:30</endtime>
+<category></category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B114 (ex:B17) (B114)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_RV (OD_RV)</item></student></resources></event>
+<event id="18301" timesort="08001215" colour="FFFFFF" date="12/12/2016" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>50</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C002 (C002)</item>
+<item>C003 (C003)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Soutenances de projets</notes></event>
+<event id="18679" timesort="08001000" colour="FFD27F" date="30/01/2017" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C002 (C002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18682" timesort="08001215" colour="FFD27F" date="30/01/2017" ecs="4" ecc="8" er="1">
+<day>4</day>
+<prettytimes>08:00-12:15 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PRWEB (INFO+MDBIT)</notes></event>
+<event id="18832" timesort="08001000" colour="FFD27F" date="06/02/2017" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C002 (C002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18834" timesort="08001000" colour="FFD27F" date="06/02/2017" ecs="4" ecc="4" er="1">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PRWEB (INFO+MDBIT)</notes></event>
+<event id="18851" timesort="08001000" colour="FFD27F" date="13/02/2017" ecs="4" ecc="4" er="0">
+<day>4</day>
+<prettytimes>08:00-10:00 CM</prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18854" timesort="08001215" colour="7F7FBF" date="13/02/2017" ecs="4" ecc="8" er="1">
+<day>4</day>
+<prettytimes>08:00-12:15 TP</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP TRWEB (INFO+MDBIT)</notes></event>
+<event id="18900" timesort="08001215" colour="FFFFFF" date="27/03/2017" ecs="4" ecc="8" er="0">
+<day>4</day>
+<prettytimes>08:00-12:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>13</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B1 (B001)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Soutenances de projet</notes></event>
+<event id="16964" timesort="09001215" colour="FFD27F" date="14/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>46</prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="17001" timesort="09001215" colour="FFD27F" date="21/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>47</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="17396" timesort="09001215" colour="FFD27F" date="28/11/2016" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>48</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18548" timesort="09001215" colour="FFD27F" date="09/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>2</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18553" timesort="09001215" colour="FFD27F" date="16/01/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>3</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18866" timesort="09001215" colour="FFD27F" date="27/02/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM PAMEF</notes></event>
+<event id="18875" timesort="09001215" colour="FFD27F" date="06/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>D06 (D006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18892" timesort="09001215" colour="FFD27F" date="20/03/2017" ecs="6" ecc="6" er="0" sca="2">
+<day>4</day>
+<prettytimes>09:00-12:15 CM</prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>12</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SRICO</notes></event>
+<event id="16840" timesort="10151215" colour="FFD27F" date="05/09/2016" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="16879" timesort="10151215" colour="FFD27F" date="19/09/2016" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM GELOG</notes></event>
+<event id="23133" timesort="10151215" colour="7F7FBF" date="26/09/2016" ecs="8" ecc="4" er="1">
+<day>4</day>
+<prettytimes>10:15-12:15 TP</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B102 (ex:B11) (B102)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_SANTE (OD_SANTE)</item></student></resources>
+<notes>Réservation demandée par O.ROUX</notes></event>
+<event id="17894" timesort="10151215" colour="FFD27F" date="05/12/2016" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>49</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM MEDEV (INFO+RV)</notes></event>
+<event id="18491" timesort="10151215" colour="FFD27F" date="02/01/2017" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>1</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TLANG</notes></event>
+<event id="18562" timesort="10151215" colour="FFFFFF" date="23/01/2017" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 </prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category></category>
+<prettyweeks>4</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi A (Amphi A)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>DS TLANG</notes></event>
+<event id="18680" timesort="10151215" colour="FFD27F" date="30/01/2017" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C002 (C002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18833" timesort="10151215" colour="FFD27F" date="06/02/2017" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>C002 (C002)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18835" timesort="10151215" colour="7F7FBF" date="06/02/2017" ecs="8" ecc="4" er="1">
+<day>4</day>
+<prettytimes>10:15-12:15 TP</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks>6</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B101 (ex:B10) (B101)</item>
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>TP PRWEB (INFO+MDBIT)</notes></event>
+<event id="18855" timesort="10151215" colour="FFD27F" date="13/02/2017" ecs="8" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM TREEL</notes></event>
+<event id="18867" timesort="10151215" colour="FFD27F" date="27/02/2017" ecs="8" ecc="4" er="1">
+<day>4</day>
+<prettytimes>10:15-12:15 CM</prettytimes>
+<starttime>10:15</starttime>
+<endtime>12:15</endtime>
+<category>CM</category>
+<prettyweeks>9</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B8 (ex B9) (Amphi B008)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM INTEC (INFO+MDBIT</notes></event>
+<event id="16842" timesort="13451545" colour="FFD27F" date="05/09/2016" ecs="16" ecc="4" er="0">
+<day>4</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>Amphi B9 (ex:B8) (Amphi B009)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>CM BDONN (INFO+URBA)</notes></event>
+<event id="16881" timesort="13451545" colour="FFFFFF" date="19/09/2016" ecs="16" ecc="4" er="0">
+<day>4</day>
+<prettytimes>13:45-15:45 </prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category></category>
+<prettyweeks>38</prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Présentation des projets</notes></event>
+<event id="23220" timesort="13451545" colour="FFD27F" date="26/09/2016" ecs="16" ecc="4" er="0">
+<day>4</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>39</prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Présentation des projets</notes></event>
+<event id="16910" timesort="13451800" colour="7F7FBF" date="10/10/2016" ecs="16" ecc="8" er="0">
+<day>4</day>
+<prettytimes>13:45-18:00 TP</prettytimes>
+<starttime>13:45</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>41</prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP OBJET (INFO+URBA)</notes></event>
+<event id="18858" timesort="13451545" colour="FFD27F" date="31/10/2016" ecs="16" ecc="4" er="0">
+<day>4</day>
+<prettytimes>13:45-15:45 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>15:45</endtime>
+<category>CM</category>
+<prettyweeks>44</prettyweeks>
+<rawweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>Conf</notes></event>
+<event id="18684" timesort="13451700" colour="FFD27F" date="30/01/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>4</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B1 (B001)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18689" timesort="13451700" colour="FFD27F" date="30/01/2017" ecs="16" ecc="6" er="1" scb="2">
+<day>4</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>5</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18856" timesort="13451700" colour="FFD27F" date="13/02/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>4</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B6 (B006)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="18857" timesort="13451700" colour="FFD27F" date="13/02/2017" ecs="16" ecc="6" er="1" scb="2">
+<day>4</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>7</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B113 (ex:B16) (B113)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM SYSIN</notes></event>
+<event id="18876" timesort="13451700" colour="FFD27F" date="06/03/2017" ecs="16" ecc="6" er="0" scb="2">
+<day>4</day>
+<prettytimes>13:45-17:00 CM</prettytimes>
+<starttime>13:45</starttime>
+<endtime>17:00</endtime>
+<category>CM</category>
+<prettyweeks>10</prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salle">
+<item>B1 (B001)</item></room>
+<student title="Étudiant">
+<item>OD_INFO (OD_INFO)</item></student></resources>
+<notes>CM ARSYS</notes></event>
+<event id="16844" timesort="16001800" colour="FFD27F" date="05/09/2016" ecs="20" ecc="4" er="0">
+<day>4</day>
+<prettytimes>16:00-18:00 CM</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>CM</category>
+<prettyweeks>36</prettyweeks>
+<rawweeks>NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C006 (C006)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TD BDONN (INFO+URBA)</notes></event>
+<event id="16946" timesort="16001800" colour="7F7FBF" date="31/10/2016" ecs="20" ecc="4" er="0">
+<day>4</day>
+<prettytimes>16:00-18:00 TP</prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:00</endtime>
+<category>TP</category>
+<prettyweeks>44</prettyweeks>
+<rawweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<room title="Salles">
+<item>B113 (ex:B16) (B113)</item>
+<item>C103 (C103)</item></room>
+<student title="Étudiants">
+<item>OD_INFO (OD_INFO)</item>
+<item>OD_UrbaniSTIC (OD_UrbaniSTIC)</item></student></resources>
+<notes>TP BDONN</notes></event></timetable>

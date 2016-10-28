@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_3b99475e8bff488ae783c4a798538d29033ed149/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/libs/jsoup-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cf6b39237a391f25be99343877d10bf8162f1178">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.6.2_f308b6091f9734ea3215f1f4b37c52cf48f67798/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1a68bd51aaecb310907efd9603360c8c4ea99f8c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1f041ebb3a3120459b5f28fdade850d61b311e81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4794ace14131d2418f1dc2d05b003a645fbb0175">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ba1ed455cbe771ff3c57a19c5aa4c2e5ab2e1b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_ffce4a7364f285f2d874dbce2d8a592593250332/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_173f07ce4266bdfb72201f62793c9ca50a4bdba0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_863aa80976ac1dfd0cbf760dde5e3534fc3c0249/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_ba99582a7d53678ef3fc955b8362e4cb01cf4baf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_b93f3374195af096d7807a91ff66ad2615fc5d7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_1388369795350e07666f41f2f86b7e6bb346394e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_ef493d4de46b230f931e64dee9fa122f1bdf4c70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_efd3aa623c288c137138571785ff0994aba65cf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_cfd361525f37f798cf9bd169b3a3548da1a3adcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_9e9a5ccc74cdd4c3c0420bab493f788ca503339b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_534bb0154d8038b89f39554b9e564896ec0f4e2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e84c9b4a9d65d2bd4059932c3ed8f266d75edb02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="363a0da91e259815258337817f99b8f5e9d8d18f">
+        <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6c1b1bf4c1883ac4dad04aa3c7acae62f6bfc95/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_annee"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="2016" />
+
+    <TextView
+        android:id="@+id/tv_lundi"
+        style="@style/style_text_day"
+        android:text="Lundi" />
+
+    <TextView
+        android:id="@+id/tv_mardi"
+        style="@style/style_text_day"
+        android:text="Mardi" />
+
+    <TextView
+        android:id="@+id/tv_mercredi"
+        style="@style/style_text_day"
+        android:text="Mercredi" />
+
+    <TextView
+        android:id="@+id/tv_jeudi"
+        style="@style/style_text_day"
+        android:text="Jeudi" />
+
+    <TextView
+        android:id="@+id/tv_vendredi"
+        style="@style/style_text_day"
+        android:text="Vendredi" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_diver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/diverbtn"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner_choix_semaine"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/setbtn"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

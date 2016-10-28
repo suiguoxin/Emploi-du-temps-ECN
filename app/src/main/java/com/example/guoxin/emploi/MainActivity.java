@@ -1,7 +1,12 @@
 package com.example.guoxin.emploi;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,8 +25,11 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public static MainActivity instance = null;
+import static com.example.guoxin.emploi.ActivitySet.PREFERENCE_NAME;
+import static com.example.guoxin.emploi.ActivitySet.choixOption;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
+    public static MainActivity instance;
     private Context mContext;
     private RelativeLayout layout;
     private RelativeLayout layoutLundi;
@@ -39,14 +47,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_set;
 
     private int gridHeight, gridWidth;
-    private static boolean isFirst = true;
+    private boolean isFirst = true;
 
-    private Util util;
+    private HttpUtil httpUtil;
+    private CalendarUtil calendarUtil;
     private Cour[] cours;
     private ArrayList<String> mData = null;
 
     private int semaine;
     private String[] title;
+
+    private String annee = "Ei2";
+    private String option = "INFO";
+    private String groupe = "M1";
+
+    public String tag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,19 +71,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initData();
         initView();
         initEvent();
+        Log.i("onCreate", "start");
     }
+
+//    @Override
+//    protected void onResume() {
+//        recreate();
+//    }
 
     private void initData() {
         instance = this;
-        util = new Util();
+        calendarUtil = new CalendarUtil();
         title = new String[6];
-        semaine = util.getCurrentWeekOfYear();
-        int maxWeekNumOfYear = util.getMaxWeekNumOfYear();
+        semaine = calendarUtil.getCurrentWeekOfYear();
+        int maxWeekNumOfYear = calendarUtil.getMaxWeekNumOfYear();
 
         mData = new ArrayList<>();
         for (int i = 1; i <= maxWeekNumOfYear; i++) {
             mData.add("Semaine " + i);
         }
+
+        SharedPreferences sharedPreferences = getSharedPreferences(ActivitySet.PREFERENCE_NAME, Activity.MODE_PRIVATE);
+        annee = sharedPreferences.getString("annee", annee);
+        option = sharedPreferences.getString("option", option);
+        groupe = sharedPreferences.getString("groupe", groupe);
     }
 
     private void initView() {
@@ -92,27 +118,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ArrayAdapter<String> myAdadpter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, mData);
         spinner.setAdapter(myAdadpter);
         // Log.i("init1",Integer.toString(semaine));
-        spinner.setSelection(semaine - 1, true);
+//        spinner.setSelection(semaine - 1, true);
     }
 
     private void initEvent() {
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        new Thread(new Runnable() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                switch (parent.getId()) {
-                    case R.id.spinner_choix_semaine:
-                        Toast.makeText(mContext, "Tu as choisi ：" + parent.getItemAtPosition(position).toString(),
-                                Toast.LENGTH_SHORT).show();
-                        semaine = position+1;
-                        addCoursDeSemaine();
-                        break;
-                }
+            public void run() {
+                // Looper.prepare();
+//                Handler handler = new Handler();
+//                getMainLooper()
+                httpUtil = new HttpUtil(annee, option, groupe);
+                Message msg = new Message();
+                msg.what = 0x123;
+//                Bundle bundle = new Bundle();
+//                bundle.putInt(UPPER_NUM ,
+//                        Integer.parseInt(etNum.getText().toString()));
+//                msg.setData(bundle);
+                handler.sendMessage(msg);
+                Log.i("msg", "msg envoyé");
+//                Looper.loop();
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
-        });
+        }).start();
 
         btn_set.setOnClickListener(this);
     }
@@ -122,24 +149,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btn_set:
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this,ActivitySet.class);
+                intent.setClass(MainActivity.this, ActivitySet.class);
                 startActivity(intent);
                 //finish();
         }
     }
 
     @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        switch (parent.getId()) {
+            case R.id.spinner_choix_semaine:
+                Toast.makeText(mContext, "Tu as choisi ：" + parent.getItemAtPosition(position).toString(),
+                        Toast.LENGTH_SHORT).show();
+                semaine = position + 1;
+                addCoursDeSemaine();
+                break;
+        }
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+    }
+
+    @Override
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
-            if (isFirst) {
-                isFirst = false;
-                gridWidth = layoutLundi.getWidth();
-                gridHeight = layoutLundi.getHeight() / 10;
-                //为啥42周可以自动加载cours, 43周就不行
-                spinner.setSelection(semaine-2, true);
-            }
+        if (isFirst) {
+            isFirst = false;
+            gridWidth = layoutLundi.getWidth();
+            gridHeight = layoutLundi.getHeight() / 10;
+        }
     }
-/*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -151,13 +192,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            addCoursDeSemaine();
+            return true;
+        }
+        if (id == R.id.action_refresh) {
+            recreate();
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
-*/
+
     private TextView createTv(String starttime, String endtime, String text) {
+        tag = "creatTv";
         TextView tv = new TextView(this);
         int start = 0, end = 0;
         if (starttime.equals("08:00")) start = 1;
@@ -181,6 +226,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          指定高度和宽度
          */
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(gridWidth, gridHeight * (end - start + 1));
+        Log.i(tag, Integer.toString(gridWidth));
+        Log.i(tag, Integer.toString(gridHeight));
         /*
         指定位置
          */
@@ -227,13 +274,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         layout.addView(tv);
     }
 
-    private void addPasDeCour(){
+    private void addPasDeCour() {
         TextView tv = new TextView(this);
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(gridWidth, gridHeight * 2);
 
         String pas_de_cour = "Pas De Cour Cette Semaine!";
 
-        tv.setY(gridHeight );
+        tv.setY(gridHeight);
         tv.setLayoutParams(params);
         tv.setGravity(Gravity.CENTER);
         tv.setText(pas_de_cour);
@@ -246,23 +293,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         deleteCours();
         setTitle();
         boolean pasDeCour = true;
-        cours = util.getCoursDeSemaine(semaine, "option");
-        if(cours != null){
+
+        cours = httpUtil.getCoursDeSemaine(semaine, "option");
+        if (cours != null) {
+            Log.i("addCours", "option");
             pasDeCour = false;
             for (Cour c : cours) {
                 addView(c);
             }
         }
 
-        cours = util.getCoursDeSemaine(semaine, "groupe");
-        if(cours != null){
+        cours = httpUtil.getCoursDeSemaine(semaine, "groupe");
+        if (cours != null) {
+            Log.i("addCours", "groupe");
             pasDeCour = false;
             for (Cour c : cours) {
                 addView(c);
             }
         }
 
-        if(pasDeCour) addPasDeCour();
+        if (pasDeCour) addPasDeCour();
     }
 
     private void deleteCours() {
@@ -302,7 +352,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setTitle() {
-        title = Util.getTitle(semaine);
+        title = HttpUtil.getTitle(semaine);
 
         tv_annee.setText(title[0]);
         tv_lundi.setText(title[1]);
@@ -311,5 +361,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_jeudi.setText(title[4]);
         tv_vendredi.setText(title[5]);
     }
+
+    final Handler handler = new Handler() {
+        public void handleMessage(android.os.Message msg) {
+            if (msg.what == 0x123) {
+                spinner.setOnItemSelectedListener(MainActivity.this);
+                spinner.setSelection(semaine - 1, true);
+            }
+        }
+    };
 
 }
