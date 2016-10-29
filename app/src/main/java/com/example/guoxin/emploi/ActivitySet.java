@@ -6,11 +6,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.text.Layout;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -21,27 +22,31 @@ import android.widget.Toast;
 
 public class ActivitySet extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
     public static String[] annees;
+    public static String[] groupes;
     public String[] options;
-    public String[] groupes;
+    public String[] groupesRSE;
 
     private Context mContext;
 
     private Button btn_confirmer;
     private Button btn_annuler;
-    private Spinner spinner_choix_annee;
-    private Spinner spinner_choix_option;
-    private Spinner spinner_choix_groupe;
+    private Spinner spinner_annee;
+    private Spinner spinner_groupe;
+    private Spinner spinner_option;
+    private Spinner spinner_groupeRSE;
+    private RelativeLayout layout_spinner_groupe;
+    private RelativeLayout layout_spinner_option;
+    private RelativeLayout layout_spinner_groupeRSE;
 
-    public static int choixAnnee = 1;
-    public static int choixOption = 0;
-    public static int choixGroupe = 0;
-
-    public static final String PREFERENCE_NAME = "userinfo";
+    private int choixAnnee = 1;
+    private int choixGroupe = 10;
+    private int choixOption = 0;
+    private int choixGroupeRSE = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_set_info);
+        setContentView(R.layout.layout_set);
 
         initData();
         initView();
@@ -52,62 +57,87 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
         mContext = ActivitySet.this;
 
         annees = new String[]{"Ei1", "Ei2+"};
+        groupes = new String[]{"A", "B", "C","D", "E", "F","G", "H", "I","J", "K", "L"};
         options = new String[]{"INFO", "RV", "SANTE", "ROBOTIQUE"};
-        groupes = new String[]{"M1", "M2", "M3", "M4"};
+        groupesRSE = new String[]{"M1", "M2", "M3", "M4"};
 
-        SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Activity.MODE_PRIVATE);
-        choixAnnee = sharedPreferences.getInt("choixAnnee", choixAnnee);
-        choixOption = sharedPreferences.getInt("choixOption", choixOption);
-        choixGroupe = sharedPreferences.getInt("choixGroupe", choixGroupe);
+        choixAnnee = (int) SpUtil.get(this, "choixAnnee", choixAnnee);
+        choixGroupe = (int) SpUtil.get(this, "choixGroupe", choixGroupe);
+        choixOption = (int) SpUtil.get(this, "choixOption", choixOption);
+        choixGroupeRSE = (int) SpUtil.get(this, "choixGroupeRSE", choixGroupeRSE);
     }
 
     private void initView() {
         btn_confirmer = (Button) findViewById(R.id.btn_confirmer);
         btn_annuler = (Button) findViewById(R.id.btn_annuler);
 
-        spinner_choix_annee = (Spinner) findViewById(R.id.spinner_choix_annee);
+        spinner_annee = (Spinner) findViewById(R.id.spinner_annee);
         ArrayAdapter<String> adadpterAnnee = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, annees);
-        spinner_choix_annee.setAdapter(adadpterAnnee);
+        spinner_annee.setAdapter(adadpterAnnee);
 
-        spinner_choix_option = (Spinner) findViewById(R.id.spinner_choix_option);
-        ArrayAdapter<String> adadpterOption = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, options);
-        spinner_choix_option.setAdapter(adadpterOption);
-
-        spinner_choix_groupe = (Spinner) findViewById(R.id.spinner_choix_groupe);
+        spinner_groupe = (Spinner) findViewById(R.id.spinner_groupe);
         ArrayAdapter<String> adadpterGroupe = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, groupes);
-        spinner_choix_groupe.setAdapter(adadpterGroupe);
+        spinner_groupe.setAdapter(adadpterGroupe);
+
+        spinner_option = (Spinner) findViewById(R.id.spinner_option);
+        ArrayAdapter<String> adadpterOption = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, options);
+        spinner_option.setAdapter(adadpterOption);
+
+        spinner_groupeRSE = (Spinner) findViewById(R.id.spinner_groupeRSE);
+        ArrayAdapter<String> adadpterGroupeRSE = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, groupesRSE);
+        spinner_groupeRSE.setAdapter(adadpterGroupeRSE);
+
+        layout_spinner_groupe = (RelativeLayout) findViewById(R.id.layout_spinner_groupe);
+        layout_spinner_option = (RelativeLayout) findViewById(R.id.layout_spinner_option);
+        layout_spinner_groupeRSE = (RelativeLayout) findViewById(R.id.layout_spinner_groupeRSE);
     }
 
     private void initEvent() {
         btn_confirmer.setOnClickListener(this);
         btn_annuler.setOnClickListener(this);
 
-        spinner_choix_annee.setSelection(choixAnnee, true);
-        spinner_choix_option.setSelection(choixOption, true);
-        spinner_choix_groupe.setSelection(choixGroupe, true);
+        spinner_annee.setOnItemSelectedListener(this);
+        spinner_groupe.setOnItemSelectedListener(this);
+        spinner_option.setOnItemSelectedListener(this);
+        spinner_groupeRSE.setOnItemSelectedListener(this);
 
-        spinner_choix_annee.setOnItemSelectedListener(this);
-        spinner_choix_option.setOnItemSelectedListener(this);
-        spinner_choix_groupe.setOnItemSelectedListener(this);
+        spinner_annee.setSelection(choixAnnee, true);
+        spinner_groupe.setSelection(choixGroupe, true);
+        spinner_option.setSelection(choixOption, true);
+        spinner_groupeRSE.setSelection(choixGroupeRSE, true);
     }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (parent.getId()) {
-            case R.id.spinner_choix_annee:
+            case R.id.spinner_annee:
                 Toast.makeText(mContext, "Année ：" + parent.getItemAtPosition(position).toString(),
                         Toast.LENGTH_SHORT).show();
                 choixAnnee = position;
+                if (choixAnnee == 0) {
+                    layout_spinner_groupe.setVisibility(View.VISIBLE);
+                    layout_spinner_option.setVisibility(View.GONE);
+                    layout_spinner_groupeRSE.setVisibility(View.GONE);
+                } else if (choixAnnee == 1) {
+                    layout_spinner_groupe.setVisibility(View.GONE);
+                    layout_spinner_option.setVisibility(View.VISIBLE);
+                    layout_spinner_groupeRSE.setVisibility(View.VISIBLE);
+                }
                 break;
-            case R.id.spinner_choix_option:
+            case R.id.spinner_groupe:
+                Toast.makeText(mContext, "Option ：" + parent.getItemAtPosition(position).toString(),
+                        Toast.LENGTH_SHORT).show();
+                choixGroupe = position;
+                break;
+            case R.id.spinner_option:
                 Toast.makeText(mContext, "Option ：" + parent.getItemAtPosition(position).toString(),
                         Toast.LENGTH_SHORT).show();
                 choixOption = position;
                 break;
-            case R.id.spinner_choix_groupe:
+            case R.id.spinner_groupeRSE:
                 Toast.makeText(mContext, "Groupe ：" + parent.getItemAtPosition(position).toString(),
                         Toast.LENGTH_SHORT).show();
-                choixGroupe = position;
+                choixGroupeRSE = position;
                 break;
         }
     }
@@ -120,24 +150,22 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_confirmer:
+                SpUtil.put(this, "choixAnnee", choixAnnee);
+                SpUtil.put(this, "choixGroupe", choixGroupe);
+                SpUtil.put(this, "choixOption", choixOption);
+                SpUtil.put(this, "choixGroupeRSE", choixGroupeRSE);
+
+                SpUtil.put(this, "annee", annees[choixAnnee]);
+                SpUtil.put(this, "groupe", groupes[choixGroupe]);
+                SpUtil.put(this, "option", options[choixOption]);
+                SpUtil.put(this, "groupeRSE", groupesRSE[choixGroupeRSE]);
+
                 Intent it = new Intent(ActivitySet.this, MainActivity.class);
 //                 Bundle bd = new Bundle();
 //                bd.putString("annee", annee);
 //                bd.putString("option", option);
 //                bd.putString("groupe", groupe);
 //                it.putExtras(bd);
-                SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Activity.MODE_PRIVATE);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-
-                editor.putInt("choixAnnee", choixAnnee);
-                editor.putInt("choixOption", choixOption);
-                editor.putInt("choixGroupe", choixGroupe);
-                editor.putString("annee", annees[choixAnnee]);
-                editor.putString("option", options[choixOption]);
-                editor.putString("groupe", groupes[choixGroupe]);
-
-                editor.commit();
-
                 MainActivity.instance.finish();
                 startActivity(it);
                 finish();
@@ -147,12 +175,5 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
                 break;
         }
     }
-
-//    @Override
-//    public void onStop() {
-//        super.onStop();
-//        Log.i("stop", "donne keep");
-//    }
-
 }
 

@@ -8,26 +8,159 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="style_weekly_column">
+    <!-- main -->
+    <!-- menu -->
+    <style name="style_menu_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- button set -->
+    <style name="style_btn_set">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- spinner -->
+    <style name="style_spinner_main">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- button diver -->
+    <style name="style_btn_diver">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- main_cours -->
+    <style name="style_main_cours">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">700dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- cour -->
+    <style name="style_text_cour">
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="style_text_num">
+    <!-- horaire -->
+    <style name="style_text_horaire">
         <item name="android:gravity">center</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
     </style>
 
-    <style name="style_text_day">
+    <!-- annee -->
+    <style name="style_text_annee">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- date -->
+    <style name="style_text_date">
         <item name="android:gravity">center</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">40dp</item>
         <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- set-->
+    <!-- spinner-->
+    <style name="style_spinner_set">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <!-- text_spinner-->
+    <style name="style_text_spinner">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <!-- layout_spinner-->
+    <style name="style_layout_spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- button annuler -->
+    <style name="style_btn_annuler">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- button confirmer -->
+    <style name="style_btn_confirmer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- text_title-->
+    <style name="style_text_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- title-->
+    <style name="style_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- diver-->
+    <!-- button rentrer -->
+    <style name="style_btn_rentrer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- switch -->
+    <style name="style_switch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">#058</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- text-->
+    <style name="style_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#058</item>
     </style>
 
 </resources>

@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="700dp"
-    android:orientation="horizontal">
+    style="@style/style_main_cours">
 
     <include
         android:id="@+id/Monday"
-        layout="@layout/widget_column" />
+        layout="@layout/layout_main_cours_cour" />
 
     <include
         android:id="@+id/Tuesday"
-        layout="@layout/widget_column" />
+        layout="@layout/layout_main_cours_cour" />
 
     <include
         android:id="@+id/Wednesday"
-        layout="@layout/widget_column" />
+        layout="@layout/layout_main_cours_cour" />
 
     <include
         android:id="@+id/Thursday"
-        layout="@layout/widget_column" />
+        layout="@layout/layout_main_cours_cour" />
 
     <include
         android:id="@+id/Friday"
-        layout="@layout/widget_column" />
+        layout="@layout/layout_main_cours_cour" />
 
 </LinearLayout>

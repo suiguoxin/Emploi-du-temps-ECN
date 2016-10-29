@@ -1,11 +1,8 @@
 package com.example.guoxin.emploi;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Handler;
-import android.os.Looper;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,9 +22,6 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import static com.example.guoxin.emploi.ActivitySet.PREFERENCE_NAME;
-import static com.example.guoxin.emploi.ActivitySet.choixOption;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     public static MainActivity instance;
     private Context mContext;
@@ -45,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tv_jeudi;
     private TextView tv_vendredi;
     private Button btn_set;
+    private Button btn_diver;
 
     private int gridHeight, gridWidth;
     private boolean isFirst = true;
@@ -57,9 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int semaine;
     private String[] title;
 
-    private String annee = "Ei2";
+    private String annee = "Ei2+";
+    private String groupe = "A";
     private String option = "INFO";
-    private String groupe = "M1";
+    private String groupeRSE = "M1";
+
+    private boolean modeDetail = true;
 
     public String tag;
 
@@ -91,10 +89,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mData.add("Semaine " + i);
         }
 
-        SharedPreferences sharedPreferences = getSharedPreferences(ActivitySet.PREFERENCE_NAME, Activity.MODE_PRIVATE);
-        annee = sharedPreferences.getString("annee", annee);
-        option = sharedPreferences.getString("option", option);
-        groupe = sharedPreferences.getString("groupe", groupe);
+        annee = (String) SpUtil.get(this, "annee", annee);
+        groupe = (String) SpUtil.get(this, "groupe", groupe);
+        option = (String) SpUtil.get(this, "option", option);
+        groupeRSE = (String) SpUtil.get(this, "groupeRSE", groupeRSE);
+        modeDetail = (boolean) SpUtil.get(this, "modeDetail", modeDetail);
     }
 
     private void initView() {
@@ -113,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_vendredi = (TextView) findViewById(R.id.tv_vendredi);
 
         btn_set = (Button) findViewById(R.id.btn_set);
+        btn_diver = (Button) findViewById(R.id.btn_diver);
 
         spinner = (Spinner) findViewById(R.id.spinner_choix_semaine);
         ArrayAdapter<String> myAdadpter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, mData);
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // Looper.prepare();
 //                Handler handler = new Handler();
 //                getMainLooper()
-                httpUtil = new HttpUtil(annee, option, groupe);
+                httpUtil = new HttpUtil(annee, groupe, option, groupeRSE);
                 Message msg = new Message();
                 msg.what = 0x123;
 //                Bundle bundle = new Bundle();
@@ -142,16 +142,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }).start();
 
         btn_set.setOnClickListener(this);
+        btn_diver.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+        Intent intent = new Intent();
         switch (v.getId()) {
             case R.id.btn_set:
-                Intent intent = new Intent();
                 intent.setClass(MainActivity.this, ActivitySet.class);
                 startActivity(intent);
                 //finish();
+                break;
+            case R.id.btn_diver:
+                intent.setClass(MainActivity.this, ActivityDiver.class);
+                startActivity(intent);
+                //finish();
+                break;
         }
     }
 
@@ -177,21 +184,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (isFirst) {
             isFirst = false;
             gridWidth = layoutLundi.getWidth();
-            gridHeight = layoutLundi.getHeight() / 10;
+            gridHeight = layoutLundi.getHeight() / 12;
         }
     }
 
+    //ToolBar Menu initialisation
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_toolbar, menu);
         return true;
     }
 
+    //ToolBar Items initialisation
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_exit) {
+            this.finish();
             return true;
         }
         if (id == R.id.action_refresh) {
@@ -213,6 +223,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else if (starttime.equals("14:45")) start = 6;
         else if (starttime.equals("16:00")) start = 7;
         else if (starttime.equals("17:00")) start = 8;
+        else if (starttime.equals("18:15")) start = 9;
+        else if (starttime.equals("19:15")) start = 10;
+        else if (starttime.equals("20:30")) start = 11;
+
 
         if (endtime.equals("09:00")) end = 1;
         else if (endtime.equals("10:00")) end = 2;
@@ -222,6 +236,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else if (endtime.equals("15:45")) end = 6;
         else if (endtime.equals("17:00")) end = 7;
         else if (endtime.equals("18:00")) end = 8;
+        else if (endtime.equals("19:15")) end = 9;
+        else if (endtime.equals("20:15")) end = 10;
+        else if (endtime.equals("21:30")) end = 11;
+        else if (endtime.equals("22:30")) end = 12;
         /*
          指定高度和宽度
          */
@@ -235,6 +253,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv.setLayoutParams(params);
         tv.setGravity(Gravity.CENTER);
         tv.setText(text);
+
         return tv;
     }
 
@@ -257,7 +276,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 layout = (RelativeLayout) findViewById(R.id.Friday);
                 break;
         }
-        tv = createTv(cour.starttime, cour.endtime, cour.text);
+        if (modeDetail)
+            tv = createTv(cour.starttime, cour.endtime, cour.textLong);
+        else tv = createTv(cour.starttime, cour.endtime, cour.textShort);
 
         if (cour.category.equals("CM"))
             tv.setBackgroundResource(R.drawable.txt_radiuborder_cm);
@@ -267,9 +288,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             tv.setBackgroundResource(R.drawable.txt_radiuborder_tp);
         else if (cour.category.equals("Journée partenaire"))
             tv.setBackgroundResource(R.drawable.txt_radiuborder_jp);
+        else if (cour.category.equals("Journée férié"))
+            tv.setBackgroundResource(R.drawable.txt_radiuborder_jf);
+        else if (cour.category.equals("Vacances"))
+            tv.setBackgroundResource(R.drawable.txt_radiuborder_vacances);
         else
             tv.setBackgroundResource(R.drawable.txt_radiuborder_df);
-
 
         layout.addView(tv);
     }
@@ -292,28 +316,40 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void addCoursDeSemaine() {
         deleteCours();
         setTitle();
-        boolean pasDeCour = true;
 
-        cours = httpUtil.getCoursDeSemaine(semaine, "option");
+        cours = httpUtil.getCoursDeSemaine(semaine);
         if (cours != null) {
-            Log.i("addCours", "option");
-            pasDeCour = false;
             for (Cour c : cours) {
                 addView(c);
             }
-        }
-
-        cours = httpUtil.getCoursDeSemaine(semaine, "groupe");
-        if (cours != null) {
-            Log.i("addCours", "groupe");
-            pasDeCour = false;
-            for (Cour c : cours) {
-                addView(c);
-            }
-        }
-
-        if (pasDeCour) addPasDeCour();
+        } else addPasDeCour();
     }
+
+//    private void addCoursDeSemaine() {
+//        deleteCours();
+//        setTitle();
+//        boolean pasDeCour = true;
+//
+//        cours = httpUtil.getCoursDeSemaine(semaine, "option");
+//        if (cours != null) {
+//            Log.i("addCours", "option");
+//            pasDeCour = false;
+//            for (Cour c : cours) {
+//                addView(c);
+//            }
+//        }
+//
+//        cours = httpUtil.getCoursDeSemaine(semaine, "groupe");
+//        if (cours != null) {
+//            Log.i("addCours", "groupe");
+//            pasDeCour = false;
+//            for (Cour c : cours) {
+//                addView(c);
+//            }
+//        }
+//
+//        if (pasDeCour) addPasDeCour();
+//    }
 
     private void deleteCours() {
         layoutLundi.removeAllViews();

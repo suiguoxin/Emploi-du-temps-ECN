@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_menu_main">
+
+    <Button
+        android:id="@+id/btn_diver"
+        style="@style/style_btn_diver"
+        android:text="@string/btn_diver" />
+
+    <Spinner
+        android:id="@+id/spinner_choix_semaine"
+        style="@style/style_spinner_main" />
+
+    <Button
+        android:id="@+id/btn_set"
+        style="@style/style_btn_set"
+        android:text="@string/btn_set" />
+
+</RelativeLayout>

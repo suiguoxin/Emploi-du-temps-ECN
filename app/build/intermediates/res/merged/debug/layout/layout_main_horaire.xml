@@ -5,43 +5,51 @@
     android:orientation="vertical">
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode1" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode2" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode3" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode4" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode5" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode6" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode7" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode8" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode9" />
 
     <TextView
-        style="@style/style_text_num"
+        style="@style/style_text_horaire"
         android:text="@string/periode10" />
+
+    <TextView
+        style="@style/style_text_horaire"
+        android:text="@string/periode11" />
+
+    <TextView
+        style="@style/style_text_horaire"
+        android:text="@string/periode12" />
 
 </LinearLayout>

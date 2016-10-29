@@ -19,27 +19,36 @@ import java.util.TimeZone;
  */
 
 public class HttpUtil {
-    private String urlOption;
     private String urlGroupe;
-    private Document docOption;
+    private String urlOption;
+    private String urlGroupeRSE;
+
     private Document docGroupe;
+    private Document docOption;
+    private Document docGroupeRSE;
 
     private String annee;
-    private String option;
     private String groupe;
+    private String option;
+    private String groupeRSE;
 
     private static Calendar c;
 
-    public HttpUtil(String annee, String option, String groupe) {
-        initData(annee, option, groupe);
+    public HttpUtil(String annee, String groupe, String option, String groupeRSE) {
+        initData(annee, groupe, option, groupeRSE);
         initCalendar();
         initHttp();
     }
 
-    private void initData(String annee, String option, String groupe) {
+    private void initData(String annee, String groupe, String option, String groupeRSE) {
         this.annee = annee;
-        this.option = option;
         this.groupe = groupe;
+        this.option = option;
+        this.groupeRSE = groupeRSE;
+
+        urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16696.xml"; //K
+        urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16643.xml"; //INFO
+        urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16568.xml"; //M1
     }
 
     private void initCalendar() {
@@ -53,56 +62,82 @@ public class HttpUtil {
     }
 
     private void initHttp() {
-        if (annee.equals("Ei2+")) { //Ei2+
+        if (annee.equals("Ei1")) {
+            if (groupe.equals("A"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16682.xml";
+            else if (groupe.equals("B"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16684.xml";
+            else if (groupe.equals("C"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16685.xml";
+            else if (groupe.equals("D"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16686.xml";
+            else if (groupe.equals("E"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16690.xml";
+            else if (groupe.equals("F"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16691.xml";
+            else if (groupe.equals("G"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16692.xml";
+            else if (groupe.equals("H"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16693.xml";
+            else if (groupe.equals("I"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16694.xml";
+            else if (groupe.equals("J"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16695.xml";
+            else if (groupe.equals("K"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16696.xml";
+            else if (groupe.equals("L"))
+                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16697.xml";
+
+
+        } else if (annee.equals("Ei2+")) { //Ei2+
             if (option.equals("INFO")) //INFO
                 urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16643.xml";
             else if (option.equals("RV")) //RV
                 urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16655.xml";
             else if (option.equals("SANTE")) //SANTE
                 urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16680.xml";
-            else //if (option.equals("ROBOTIQUE")) //ROBOTIQUE
+            else if (option.equals("ROBOTIQUE")) //ROBOTIQUE
                 urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16656.xml";
 
-            if (groupe.equals("M1")) //M1
-                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/g16568.xml";
-            else if (groupe.equals("M2")) //M2
-                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/g16569.xml";
-            else if (groupe.equals("M3")) //M3
-                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/g16570.xml";
-            else //if (groupe.equals("M4")) //M4
-                urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/g16571.xml";
+            if (groupeRSE.equals("M1")) //M1
+                urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16568.xml";
+            else if (groupeRSE.equals("M2")) //M2
+                urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16569.xml";
+            else if (groupeRSE.equals("M3")) //M3
+                urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16570.xml";
+            else if (groupe.equals("M4")) //M4
+                urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16571.xml";
         }
 
         try {
-            docOption = Jsoup.connect(urlOption).get();
             docGroupe = Jsoup.connect(urlGroupe).get();
-            Log.i("Document", "Connectioin Succed");
+            docOption = Jsoup.connect(urlOption).get();
+            docGroupeRSE = Jsoup.connect(urlGroupeRSE).get();
         } catch (IOException e) {
             e.printStackTrace();
-            Log.i("Document", "Connectioin Failed");
         }
     }
 
-    private void initFile() {
-        urlOption = Environment.getExternalStorageDirectory().getPath()
-                + File.separator + "Download" + File.separator + "urlOption.xml";
-        urlGroupe = Environment.getExternalStorageDirectory().getPath()
-                + File.separator + "Download" + File.separator + "urlGroupe.xml";
-//        try {
-        File fileOption = new File(urlOption);
-        File fileGroupe = new File(urlGroupe);
-        if (fileGroupe.exists())
-            Log.i("Document", "File  exists!");
-        else Log.i("Document", "File  doesn't exists!");
-        docOption = Jsoup.parse(urlOption);
-        docGroupe = Jsoup.parse(urlGroupe);
-        Log.i("Document", "File success");
-//        }catch (IOException e) {
-//            e.printStackTrace();
-//            Log.i("Document", "File Failed");
-//        }
-
-    }
+//    private void initFile() {
+//        urlOption = Environment.getExternalStorageDirectory().getPath()
+//                + File.separator + "Download" + File.separator + "urlOption.xml";
+//        urlGroupeRSE = Environment.getExternalStorageDirectory().getPath()
+//                + File.separator + "Download" + File.separator + "urlGroupe.xml";
+////        try {
+//        File fileOption = new File(urlOption);
+//        File fileGroupe = new File(urlGroupe);
+//        if (fileGroupe.exists())
+//            Log.i("Document", "File  exists!");
+//        else Log.i("Document", "File  doesn't exists!");
+//        docOption = Jsoup.parse(urlOption);
+//        docGroupe = Jsoup.parse(urlGroupe);
+//        Log.i("Document", "File success");
+////        }catch (IOException e) {
+////            e.printStackTrace();
+////            Log.i("Document", "File Failed");
+////        }
+//
+//    }
 
     public Cour[] getCoursDeSemaine(int semaine, String choix) {
         /*
@@ -114,15 +149,10 @@ public class HttpUtil {
         c.set(Calendar.WEEK_OF_YEAR,20);
         c.set(Calendar.DAY_OF_WEEK,Calendar.MONDAY);
         */
-        String title = docOption.title();
-        Log.i("title", title);
         String tag = "date";
         c.setWeekDate(c.get(Calendar.YEAR), semaine, Calendar.MONDAY);
         SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
         //  Log.i(tag,df.format(c.getTime()) );
-
-        // transfer à String
-        tag = "mondyOfWeek";
 
         String mondyOfWeek = df.format(c.getTime());
         //  Log.i(tag, mondyOfWeek);
@@ -133,7 +163,7 @@ public class HttpUtil {
         if (choix.equals("option"))
             eventsDeSemaine = docOption.select(requete);
         else if (choix.equals("groupe"))
-            eventsDeSemaine = docGroupe.select(requete);
+            eventsDeSemaine = docGroupeRSE.select(requete);
         int sizeEventsDeSemaine = eventsDeSemaine.size();
         Log.i("size", Integer.toString(sizeEventsDeSemaine));
 
@@ -145,37 +175,105 @@ public class HttpUtil {
 
         //print les détails des events
         for (Element event : eventsDeSemaine) {
-            Element elementDay = event.select("day").first();
-            String textDay = elementDay.text();
-
-            Element elementPrettyWeeks = event.select("prettyWeeks").first();
-            String textPrettyWeeks = elementPrettyWeeks.text();
-
-            Element elementCategory = event.select("category").first();
-            String textCategory = "";
-            if (elementCategory != null)
-                textCategory = elementCategory.text();
-
-            Element elementNotes = event.select("notes").first();
-            String textNotes = "";
-            if (elementNotes != null)
-                textNotes = elementNotes.text();
-
-            Element elementStarttime = event.select("starttime").first();
-            String textStarttime = elementStarttime.text();
-
-            Element elementEndtime = event.select("endtime").first();
-            String textEndtime = elementEndtime.text();
-
-            Element elementRoom = event.select("room").first();
-            Element elementSalle = elementRoom.select("item").first();
-            String textSalle = elementSalle.text();
-
-            cours[item] = new Cour(Integer.parseInt(textDay), Integer.parseInt(textPrettyWeeks), textCategory, textNotes,
-                    textStarttime, textEndtime, textSalle);
+            cours[item] = getCour(event);
             item++;
         }
         return cours;
+    }
+
+    public Cour[] getCoursDeSemaine(int semaine) {
+        Cour[] cours = null;
+        c.setWeekDate(c.get(Calendar.YEAR), semaine, Calendar.MONDAY);
+        SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        String mondyOfWeek = df.format(c.getTime());
+
+        //events de la semaine
+        String requete = String.format("event[date=%s]", mondyOfWeek);
+
+        if (annee.equals("Ei2+")) {
+            Elements eventsDeSemaineOption = docOption.select(requete);
+            Elements eventsDeSemaineGroupeRSE = docGroupeRSE.select(requete);
+            int sizeEventsDeSemaineOption = eventsDeSemaineOption.size();
+            int sizeEventsDeSemaineGroupeRSE = eventsDeSemaineGroupeRSE.size();
+            int sizeEventsDeSemaine = sizeEventsDeSemaineOption + sizeEventsDeSemaineGroupeRSE;
+            if (sizeEventsDeSemaine == 0)
+                return null;
+
+            cours = new Cour[sizeEventsDeSemaine];
+            int item = 0;
+            for (Element event : eventsDeSemaineOption) {
+                cours[item] = getCour(event);
+                item++;
+            }
+            for (Element event : eventsDeSemaineGroupeRSE) {
+                cours[item] = getCour(event);
+                item++;
+            }
+        } else if (annee.equals("Ei1")) {
+//            Elements eventsDeSemaineOption = docOption.select(requete);
+            Elements eventsDeSemaineGroupe = docGroupe.select(requete);
+//            int sizeEventsDeSemaineOption = eventsDeSemaineOption.size();
+            int sizeEventsDeSemaineGroupe = eventsDeSemaineGroupe.size();
+            int sizeEventsDeSemaine = sizeEventsDeSemaineGroupe;
+            if (sizeEventsDeSemaine == 0)
+                return null;
+
+            cours = new Cour[sizeEventsDeSemaine];
+            int item = 0;
+//            for (Element event : eventsDeSemaineOption) {
+//                cours[item] = getCour(event);
+//                item++;
+//            }
+            for (Element event : eventsDeSemaineGroupe) {
+                cours[item] = getCour(event);
+                item++;
+            }
+        }
+
+        return cours;
+    }
+
+    private Cour getCour(Element event) {
+        Element elementDay = event.select("day").first();
+        String textDay = "";
+        if (elementDay != null)
+            textDay = elementDay.text();
+
+        Element elementPrettyWeeks = event.select("prettyWeeks").first();
+        String textPrettyWeeks = "";
+        if (elementPrettyWeeks != null)
+            textPrettyWeeks = elementPrettyWeeks.text();
+
+        Element elementCategory = event.select("category").first();
+        String textCategory = "";
+        if (elementCategory != null)
+            textCategory = elementCategory.text();
+
+        Element elementNotes = event.select("notes").first();
+        String textNotes = "";
+        if (elementNotes != null)
+            textNotes = elementNotes.text();
+
+        Element elementStarttime = event.select("starttime").first();
+        String textStarttime = "";
+        if (elementStarttime != null)
+            textStarttime = elementStarttime.text();
+
+        Element elementEndtime = event.select("endtime").first();
+        String textEndtime = "";
+        if (elementEndtime != null)
+            textEndtime = elementEndtime.text();
+
+        Element elementRoom = event.select("room").first();
+        String textSalle = "";
+        if (elementRoom != null) {
+            Element elementSalle = elementRoom.select("item").first();
+            textSalle = elementSalle.text();
+        }
+
+        Cour cour = new Cour(Integer.parseInt(textDay), Integer.parseInt(textPrettyWeeks), textCategory, textNotes,
+                textStarttime, textEndtime, textSalle);
+        return cour;
     }
 
     public static String[] getTitle(int semaine) {

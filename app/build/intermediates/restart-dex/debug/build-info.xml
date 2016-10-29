@@ -4,13 +4,13 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="31719668773047"
+    timestamp="34744519212351"
     token="-2159356518915172752"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="262" />
+        duration="111" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -19,28 +19,31 @@
         duration="16" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
         location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="30981702816057"
+        timestamp="30012462554541"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Guoxin/Desktop/Emploi/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="31615630640779"
+        timestamp="33036141341503"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
+        <artifact
+            location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="31719668773047"
+        timestamp="34744519212351"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"

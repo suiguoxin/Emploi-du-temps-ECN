@@ -6,33 +6,31 @@
 
     <TextView
         android:id="@+id/tv_annee"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:gravity="center"
-        android:text="2016" />
+        style="@style/style_text_annee"
+        android:text="@string/date_annee" />
 
     <TextView
         android:id="@+id/tv_lundi"
-        style="@style/style_text_day"
-        android:text="Lundi" />
+        style="@style/style_text_date"
+        android:text="@string/date_lundi" />
 
     <TextView
         android:id="@+id/tv_mardi"
-        style="@style/style_text_day"
-        android:text="Mardi" />
+        style="@style/style_text_date"
+        android:text="@string/date_mardi" />
 
     <TextView
         android:id="@+id/tv_mercredi"
-        style="@style/style_text_day"
-        android:text="Mercredi" />
+        style="@style/style_text_date"
+        android:text="@string/date_mercredi" />
 
     <TextView
         android:id="@+id/tv_jeudi"
-        style="@style/style_text_day"
-        android:text="Jeudi" />
+        style="@style/style_text_date"
+        android:text="@string/date_jeudi" />
 
     <TextView
         android:id="@+id/tv_vendredi"
-        style="@style/style_text_day"
-        android:text="Vendredi" />
+        style="@style/style_text_date"
+        android:text="@string/date_vendredi" />
 </LinearLayout>

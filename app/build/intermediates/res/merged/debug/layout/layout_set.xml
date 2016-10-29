@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/style_title">
+
+        <Button
+            android:id="@+id/btn_annuler"
+            style="@style/style_btn_annuler"
+            android:text="@string/annuler" />
+
+        <TextView
+            style="@style/style_text_title"
+            android:text="@string/title_info" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_spinner_annee"
+        style="@style/style_layout_spinner">
+
+        <TextView
+            style="@style/style_text_spinner"
+            android:text="@string/choix_annee" />
+
+        <Spinner
+            android:id="@+id/spinner_annee"
+            style="@style/style_spinner_set" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_spinner_groupe"
+        style="@style/style_layout_spinner">
+
+        <TextView
+            style="@style/style_text_spinner"
+            android:text="@string/choix_groupe" />
+
+        <Spinner
+            android:id="@+id/spinner_groupe"
+            style="@style/style_spinner_set" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_spinner_option"
+        style="@style/style_layout_spinner">
+
+        <TextView
+            style="@style/style_text_spinner"
+            android:text="@string/choix_option" />
+
+        <Spinner
+            android:id="@+id/spinner_option"
+            style="@style/style_spinner_set" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_spinner_groupeRSE"
+        style="@style/style_layout_spinner">
+
+        <TextView
+            style="@style/style_text_spinner"
+            android:text="@string/choix_groupeRSE" />
+
+        <Spinner
+            android:id="@+id/spinner_groupeRSE"
+            style="@style/style_spinner_set" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_confirmer"
+        style="@style/style_btn_confirmer"
+        android:text="@string/confirmer" />
+
+</LinearLayout>

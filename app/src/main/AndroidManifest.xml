@@ -20,6 +20,9 @@
         <activity
             android:name=".ActivitySet">
         </activity>
+        <activity
+            android:name=".ActivityDiver">
+        </activity>
     </application>
 
 </manifest>

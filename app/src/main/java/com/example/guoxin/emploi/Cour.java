@@ -14,7 +14,8 @@ public class Cour {
     public String endtime;
     public String room;
     //la text qu'on utilise pour afficher
-    public String text;
+    public String textLong;
+    public String textShort;
 
     public Cour(int day, int prettyWeeks, String category, String notes, String starttime, String endtime, String room) {
         /**
@@ -27,7 +28,8 @@ public class Cour {
         this.starttime = starttime;
         this.endtime = endtime;
         this.room = room;
-        text = notes + '\n' + room;
+        textLong = notes + '\n' + room;
+        textShort = notes;
     }
 
     public String toString() {

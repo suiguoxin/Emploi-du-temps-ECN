@@ -16,16 +16,24 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_diver.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_diver.xml"
+    },
+    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_set.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_set.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
@@ -80,14 +88,6 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/widget_column.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/widget_column.xml"
-    },
-    {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_weekly_columns.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_weekly_columns.xml"
-    },
-    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_part_time.xml"
     },
@@ -98,10 +98,6 @@
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_num_content.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_num_content.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -124,12 +120,20 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_main_horaire.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_main_horaire.xml"
+    },
+    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_main_menu.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_main_menu.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -152,24 +156,20 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_menu.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_menu.xml"
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_main_date.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_main_date.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_day_content.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_day_content.xml"
-    },
-    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_set_info.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_set_info.xml"
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_main_cours_cour.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_main_cours_cour.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -178,5 +178,9 @@
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_main_cours.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_main_cours.xml"
     }
 ]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/style_title">
+
+        <TextView
+            style="@style/style_text_title"
+            android:text="@string/title_diver" />
+
+        <Button
+            android:id="@+id/btn_rentrer"
+            style="@style/style_btn_rentrer"
+            android:text="@string/back_to_main" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch_mode_detail"
+            style="@style/style_switch"
+            android:text="@string/mode_detail" />
+
+        <TextView
+            android:id="@+id/about_version"
+            style="@style/style_text"
+            android:text="@string/version" />
+
+        <TextView
+            android:id="@+id/about_us"
+            style="@style/style_text"
+            android:text="@string/about" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
