@@ -1,4 +1,4 @@
-#Sat Oct 29 23:55:01 CEST 2016
+#Sun Oct 30 20:07:03 CET 2016
 base.0=/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ba1ed455cbe771ff3c57a19c5aa4c2e5ab2e1b2
 renamed.1=classes2.dex
 renamed.0=classes.dex

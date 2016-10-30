@@ -17,7 +17,7 @@ public class ActivityDiver extends AppCompatActivity implements CompoundButton.O
 
     private Switch switch_mode_detail;
     private Button btn_rentrer;
-    private boolean modeDetail = true;
+    private boolean modeDetail = false;
     private String tag = "ActivityDiver";
 
     @Override

@@ -16,6 +16,7 @@ public class Cour {
     //la text qu'on utilise pour afficher
     public String textLong;
     public String textShort;
+    private boolean visible;
 
     public Cour(int day, int prettyWeeks, String category, String notes, String starttime, String endtime, String room) {
         /**
@@ -28,8 +29,42 @@ public class Cour {
         this.starttime = starttime;
         this.endtime = endtime;
         this.room = room;
-        textLong = notes + '\n' + room;
-        textShort = notes;
+
+        String empty = "";
+        // set default category
+        if (this.category == null || this.category.equals(empty))
+            this.category = "Default";
+        // set category from notes
+        if (this.category.equals("Default") && (this.notes != null && (!this.notes.equals(empty)))) {
+            if (this.notes.contains("DS "))
+                this.category = "DS";
+        }
+        // delete category from notes
+        if (this.notes != null && (!this.notes.equals(empty))) {
+            this.notes = this.notes.replace(this.category, "");
+            this.notes = this.notes.trim();
+        }
+        //set visibility and text
+        if ((this.category.equals("Default")) && (this.notes == null || this.notes.equals(empty))) {
+            this.visible = false;
+            this.textLong = null;
+            this.textShort = null;
+        } else {
+            this.visible = true;
+            //test if category exist
+            if (this.category.equals("Default"))
+                this.textLong = this.notes;
+            else this.textLong = this.category + '\n' + this.notes;
+            //test if room exist
+            if (this.room != null && (!this.room.equals(empty)))
+                this.textLong = this.textLong + '\n' + this.room;
+
+            this.textShort = getTextShort();
+        }
+    }
+
+    public boolean getVisible() {
+        return visible;
     }
 
     public String toString() {
@@ -43,4 +78,18 @@ public class Cour {
         res = res + " room: " + room;
         return res;
     }
+
+    private String getTextShort() {
+        StringBuffer result = new StringBuffer(textLong);
+        //supprimer les parenthèses
+        int indexAvant = result.indexOf("(");
+        int indexArriere = result.indexOf(")");
+        while ((indexAvant != -1) && (indexArriere != -1)) {
+            result.delete(indexAvant, indexArriere + 1);
+            indexAvant = result.indexOf("(");
+            indexArriere = result.indexOf(")");
+        }
+        return result.toString();
+    }
+
 }

@@ -6,14 +6,17 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
@@ -25,6 +28,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     public static MainActivity instance;
     private Context mContext;
+    private LinearLayout layout_main_scroll;
     private RelativeLayout layout;
     private RelativeLayout layoutLundi;
     private RelativeLayout layoutMardi;
@@ -98,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initView() {
         mContext = MainActivity.this;
+        layout_main_scroll = (LinearLayout) findViewById(R.id.layout_main_scroll);
         layoutLundi = (RelativeLayout) findViewById(R.id.Monday);
         layoutMardi = (RelativeLayout) findViewById(R.id.Tuesday);
         layoutMercredi = (RelativeLayout) findViewById(R.id.Wednesday);
@@ -182,6 +187,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
         if (isFirst) {
+//            DisplayMetrics dm = new DisplayMetrics();
+//            getWindowManager().getDefaultDisplay().getMetrics(dm);
+//            int screenHeight = dm.heightPixels;
+//
+//            FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) layout_main_scroll.getLayoutParams();
+//            if (modeDetail)
+//                params.height = screenHeight * 2;
+//            else
+//                params.height = screenHeight;
+//            layout_main_scroll.setLayoutParams(params);
             isFirst = false;
             gridWidth = layoutLundi.getWidth();
             gridHeight = layoutLundi.getHeight() / 12;
@@ -292,6 +307,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             tv.setBackgroundResource(R.drawable.txt_radiuborder_jf);
         else if (cour.category.equals("Vacances"))
             tv.setBackgroundResource(R.drawable.txt_radiuborder_vacances);
+        else if (cour.category.equals("DS"))
+            tv.setBackgroundResource(R.drawable.txt_radiuborder_ds);
         else
             tv.setBackgroundResource(R.drawable.txt_radiuborder_df);
 
@@ -313,43 +330,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         layout.addView(tv);
     }
 
+    //    private void addCoursDeSemaine() {
+//        deleteCours();
+//        setTitle();
+//
+//        cours = httpUtil.getCoursDeSemaine(semaine);
+//        if (cours != null) {
+//            for (Cour c : cours) {
+//                addView(c);
+//
+////                Log.i("cour", c.category);
+////                Log.i("cour", c.room);
+////                Log.i("cour", Integer.toString(c.prettyWeeks));
+//            }
+//        } else addPasDeCour();
+//    }
     private void addCoursDeSemaine() {
         deleteCours();
         setTitle();
 
-        cours = httpUtil.getCoursDeSemaine(semaine);
-        if (cours != null) {
+        ArrayList<Cour> cours = httpUtil.getCoursDeSemaine(semaine);
+        if (cours.isEmpty())
+            addPasDeCour();
+        else {
             for (Cour c : cours) {
                 addView(c);
             }
-        } else addPasDeCour();
+        }
     }
-
-//    private void addCoursDeSemaine() {
-//        deleteCours();
-//        setTitle();
-//        boolean pasDeCour = true;
-//
-//        cours = httpUtil.getCoursDeSemaine(semaine, "option");
-//        if (cours != null) {
-//            Log.i("addCours", "option");
-//            pasDeCour = false;
-//            for (Cour c : cours) {
-//                addView(c);
-//            }
-//        }
-//
-//        cours = httpUtil.getCoursDeSemaine(semaine, "groupe");
-//        if (cours != null) {
-//            Log.i("addCours", "groupe");
-//            pasDeCour = false;
-//            for (Cour c : cours) {
-//                addView(c);
-//            }
-//        }
-//
-//        if (pasDeCour) addPasDeCour();
-//    }
 
     private void deleteCours() {
         layoutLundi.removeAllViews();

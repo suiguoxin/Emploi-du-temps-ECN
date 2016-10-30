@@ -11,6 +11,7 @@ import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.TimeZone;
 
@@ -181,8 +182,8 @@ public class HttpUtil {
         return cours;
     }
 
-    public Cour[] getCoursDeSemaine(int semaine) {
-        Cour[] cours = null;
+    public ArrayList<Cour> getCoursDeSemaine(int semaine) {
+        ArrayList<Cour> cours = new ArrayList<>();
         c.setWeekDate(c.get(Calendar.YEAR), semaine, Calendar.MONDAY);
         SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
         String mondyOfWeek = df.format(c.getTime());
@@ -192,41 +193,26 @@ public class HttpUtil {
 
         if (annee.equals("Ei2+")) {
             Elements eventsDeSemaineOption = docOption.select(requete);
-            Elements eventsDeSemaineGroupeRSE = docGroupeRSE.select(requete);
-            int sizeEventsDeSemaineOption = eventsDeSemaineOption.size();
-            int sizeEventsDeSemaineGroupeRSE = eventsDeSemaineGroupeRSE.size();
-            int sizeEventsDeSemaine = sizeEventsDeSemaineOption + sizeEventsDeSemaineGroupeRSE;
-            if (sizeEventsDeSemaine == 0)
-                return null;
-
-            cours = new Cour[sizeEventsDeSemaine];
-            int item = 0;
             for (Element event : eventsDeSemaineOption) {
-                cours[item] = getCour(event);
-                item++;
+                Cour cour = getCour(event);
+                if (cour.getVisible()) {
+                    cours.add(cour);
+                }
             }
+            Elements eventsDeSemaineGroupeRSE = docGroupeRSE.select(requete);
             for (Element event : eventsDeSemaineGroupeRSE) {
-                cours[item] = getCour(event);
-                item++;
+                Cour cour = getCour(event);
+                if (cour.getVisible()) {
+                    cours.add(cour);
+                }
             }
         } else if (annee.equals("Ei1")) {
-//            Elements eventsDeSemaineOption = docOption.select(requete);
             Elements eventsDeSemaineGroupe = docGroupe.select(requete);
-//            int sizeEventsDeSemaineOption = eventsDeSemaineOption.size();
-            int sizeEventsDeSemaineGroupe = eventsDeSemaineGroupe.size();
-            int sizeEventsDeSemaine = sizeEventsDeSemaineGroupe;
-            if (sizeEventsDeSemaine == 0)
-                return null;
-
-            cours = new Cour[sizeEventsDeSemaine];
-            int item = 0;
-//            for (Element event : eventsDeSemaineOption) {
-//                cours[item] = getCour(event);
-//                item++;
-//            }
             for (Element event : eventsDeSemaineGroupe) {
-                cours[item] = getCour(event);
-                item++;
+                Cour cour = getCour(event);
+                if (cour.getVisible()) {
+                    cours.add(cour);
+                }
             }
         }
 
@@ -235,37 +221,37 @@ public class HttpUtil {
 
     private Cour getCour(Element event) {
         Element elementDay = event.select("day").first();
-        String textDay = "";
+        String textDay = null;
         if (elementDay != null)
             textDay = elementDay.text();
 
         Element elementPrettyWeeks = event.select("prettyWeeks").first();
-        String textPrettyWeeks = "";
+        String textPrettyWeeks = null;
         if (elementPrettyWeeks != null)
             textPrettyWeeks = elementPrettyWeeks.text();
 
         Element elementCategory = event.select("category").first();
-        String textCategory = "";
+        String textCategory = null;
         if (elementCategory != null)
             textCategory = elementCategory.text();
 
         Element elementNotes = event.select("notes").first();
-        String textNotes = "";
+        String textNotes = null;
         if (elementNotes != null)
             textNotes = elementNotes.text();
 
         Element elementStarttime = event.select("starttime").first();
-        String textStarttime = "";
+        String textStarttime = null;
         if (elementStarttime != null)
             textStarttime = elementStarttime.text();
 
         Element elementEndtime = event.select("endtime").first();
-        String textEndtime = "";
+        String textEndtime = null;
         if (elementEndtime != null)
             textEndtime = elementEndtime.text();
 
         Element elementRoom = event.select("room").first();
-        String textSalle = "";
+        String textSalle = null;
         if (elementRoom != null) {
             Element elementSalle = elementRoom.select("item").first();
             textSalle = elementSalle.text();

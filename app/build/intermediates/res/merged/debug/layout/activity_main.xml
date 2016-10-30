@@ -15,8 +15,9 @@
         android:scrollbars="vertical">
 
         <LinearLayout
+            android:id="@+id/layout_main_scroll"
             android:layout_width="match_parent"
-            android:layout_height="600dp"
+            android:layout_height="700dp"
             android:orientation="horizontal">
             <!--horaire-->
             <include layout="@layout/layout_main_horaire" />
