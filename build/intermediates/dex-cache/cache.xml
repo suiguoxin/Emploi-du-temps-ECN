@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="516803f4a46a66f0d6cb803c77570a86c6d38e20">
+        sha1="438e793356440f3a81809d4c708a2e1f94da55be">
         <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ba1ed455cbe771ff3c57a19c5aa4c2e5ab2e1b2/classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="ca47f9726df35871153152b75fc5c178c6415685">
+        sha1="d98753373d418da63ae2f79ccee03672a00b49c7">
         <dex dex="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6c1b1bf4c1883ac4dad04aa3c7acae62f6bfc95/classes.dex" />
     </item>
 

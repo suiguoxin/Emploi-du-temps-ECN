@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/style_text_cour">
+    style="@style/style_layout_cour">
 
     <TextView
         android:layout_width="match_parent"

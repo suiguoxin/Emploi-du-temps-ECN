@@ -140,6 +140,8 @@ public class HttpUtil {
 //
 //    }
 
+
+
     public Cour[] getCoursDeSemaine(int semaine, String choix) {
         /*
         Calendar cTemp = Calendar.getInstance();
@@ -278,17 +280,18 @@ public class HttpUtil {
         c.setWeekDate(c.get(Calendar.YEAR), semaine, Calendar.MONDAY);
 
         title[0] = Integer.toString(c.get(Calendar.YEAR));
-        title[1] = df.format(c.getTime()) + "\nlundi";
+        title[1] = "lundi\n" + df.format(c.getTime());
         //Log.i(tag,title[0]);
         c.add(Calendar.DAY_OF_MONTH, 1);
-        title[2] = df.format(c.getTime()) + "\nmardi";
+        title[2] = "mardi\n" + df.format(c.getTime());
         c.add(Calendar.DAY_OF_MONTH, 1);
-        title[3] = df.format(c.getTime()) + "\nmercredi";
+        title[3] = "mercredi\n" + df.format(c.getTime());
         c.add(Calendar.DAY_OF_MONTH, 1);
-        title[4] = df.format(c.getTime()) + "\njeudi";
+        title[4] = "jeudi\n" + df.format(c.getTime());
         c.add(Calendar.DAY_OF_MONTH, 1);
-        title[5] = df.format(c.getTime()) + "\nvendredi";
+        title[5] = "vendredi\n" + df.format(c.getTime());
 
         return title;
     }
+
 }

@@ -6,8 +6,8 @@
     <string name="action_exit">Quitter</string>
     <string name="action_refresh">Refraîchir</string>
 
-    <string name="btn_diver">DIVER</string>
-    <string name="btn_set">SET</string>
+    <string name="tv_diver">DIVER</string>
+    <string name="tv_set">SET</string>
 
     <string name="pas_de_cour">Pas De Cour !</string>
 
@@ -26,11 +26,11 @@
     <string name="periode13">22:30\n13</string>
 
     <string name="date_annee">2016</string>
-    <string name="date_lundi">lundi</string>
-    <string name="date_mardi">mardi</string>
-    <string name="date_mercredi">mercredi</string>
-    <string name="date_jeudi">jeudi</string>
-    <string name="date_vendredi">vendredi</string>
+    <string name="date_lundi">lund\n01/11</string>
+    <string name="date_mardi">mardi\n02/11</string>
+    <string name="date_mercredi">mercredi\n03/11 </string>
+    <string name="date_jeudi">jeudi\n04/11 </string>
+    <string name="date_vendredi">vendredi\n05/11 </string>
 
     <!--layout set-->
     <string name="title_info">Mes infos</string>
@@ -39,7 +39,7 @@
     <string name="choix_option">Option</string>
     <string name="choix_groupeRSE">GroupeRSE</string>
     <string name="confirmer">Confirmer</string>
-    <string name="annuler">Annuler</string>
+    <string name="tv_annuler">Annuler</string>
 
     <!--layout diver-->
     <string name="title_diver">Diver</string>

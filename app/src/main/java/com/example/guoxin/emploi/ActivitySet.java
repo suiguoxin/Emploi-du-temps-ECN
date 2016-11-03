@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -29,7 +30,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
     private Context mContext;
 
     private Button btn_confirmer;
-    private Button btn_annuler;
+    private TextView tv_annuler;
     private Spinner spinner_annee;
     private Spinner spinner_groupe;
     private Spinner spinner_option;
@@ -69,7 +70,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
 
     private void initView() {
         btn_confirmer = (Button) findViewById(R.id.btn_confirmer);
-        btn_annuler = (Button) findViewById(R.id.btn_annuler);
+        tv_annuler = (TextView) findViewById(R.id.tv_annuler);
 
         spinner_annee = (Spinner) findViewById(R.id.spinner_annee);
         ArrayAdapter<String> adadpterAnnee = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, annees);
@@ -94,7 +95,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
 
     private void initEvent() {
         btn_confirmer.setOnClickListener(this);
-        btn_annuler.setOnClickListener(this);
+        tv_annuler.setOnClickListener(this);
 
         spinner_annee.setOnItemSelectedListener(this);
         spinner_groupe.setOnItemSelectedListener(this);
@@ -171,7 +172,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
                 startActivity(it);
                 finish();
                 break;
-            case R.id.btn_annuler:
+            case R.id.tv_annuler:
                 finish();
                 break;
         }

@@ -16,12 +16,12 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/drawable/txt_radiuborder_vacances.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/drawable/txt_radiuborder_vacances.xml"
+    },
+    {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/drawable/txt_radiuborder_tp.xml",

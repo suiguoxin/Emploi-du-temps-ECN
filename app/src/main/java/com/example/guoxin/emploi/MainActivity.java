@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -46,18 +47,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tv_mercredi;
     private TextView tv_jeudi;
     private TextView tv_vendredi;
-    private Button btn_set;
-    private Button btn_diver;
+
+    private TextView tv_set;
+    private TextView tv_diver;
 
     private int gridHeight, gridWidth;
     private boolean isFirst = true;
 
     private HttpUtil httpUtil;
     private CalendarUtil calendarUtil;
-    private Cour[] cours;
     private ArrayList<String> mData = null;
 
-    private int semaine;
+    private int dayOfWeek;
+    private int weekSelected;
+    private int currentWeek;
     private String[] title;
 
     private String annee = "Ei2+";
@@ -69,14 +72,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public String tag;
     //
-    private static final int ADDLISTENER = 1;
+    private static final int ADDLISTENER = 0x123;
     //welcome animation
-    private static final int STOPWELCOME = 0;
+    private static final int STOPWELCOME = 0x234;
     private static final long WELCOMETIME = 2000;
     private static boolean afficheWelcome = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -102,7 +106,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         instance = this;
         calendarUtil = new CalendarUtil();
         title = new String[6];
-        semaine = calendarUtil.getCurrentWeekOfYear();
+        dayOfWeek = calendarUtil.getDayOfWeek();
+        currentWeek = calendarUtil.getCurrentWeekOfYear();
         int maxWeekNumOfYear = calendarUtil.getMaxWeekNumOfYear();
 
         mData = new ArrayList<>();
@@ -133,8 +138,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_jeudi = (TextView) findViewById(R.id.tv_jeudi);
         tv_vendredi = (TextView) findViewById(R.id.tv_vendredi);
 
-        btn_set = (Button) findViewById(R.id.btn_set);
-        btn_diver = (Button) findViewById(R.id.btn_diver);
+        tv_set = (TextView) findViewById(R.id.tv_set);
+        tv_diver = (TextView) findViewById(R.id.tv_diver);
 
         spinner = (Spinner) findViewById(R.id.spinner_choix_semaine);
         ArrayAdapter<String> myAdadpter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, mData);
@@ -161,23 +166,47 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }).start();
 
-        btn_set.setOnClickListener(this);
-        btn_diver.setOnClickListener(this);
+        tv_set.setOnClickListener(this);
+        tv_diver.setOnClickListener(this);
+
+        tv_lundi.setOnClickListener(this);
+        tv_mardi.setOnClickListener(this);
+        tv_mercredi.setOnClickListener(this);
+        tv_jeudi.setOnClickListener(this);
+        tv_vendredi.setOnClickListener(this);
+
+        changeWeight(dayOfWeek);
     }
 
     @Override
     public void onClick(View v) {
         Intent intent = new Intent();
+        LinearLayout.LayoutParams lp;
         switch (v.getId()) {
-            case R.id.btn_set:
+            case R.id.tv_set:
                 intent.setClass(MainActivity.this, ActivitySet.class);
                 startActivity(intent);
                 //finish();
                 break;
-            case R.id.btn_diver:
+            case R.id.tv_diver:
                 intent.setClass(MainActivity.this, ActivityDiver.class);
                 startActivity(intent);
                 //finish();
+                break;
+            case R.id.tv_lundi:
+                changeWeight(1);
+                break;
+            case R.id.tv_mardi:
+                changeWeight(2);
+                break;
+            case R.id.tv_mercredi:
+                changeWeight(3);
+                break;
+            case R.id.tv_jeudi:
+                changeWeight(4);
+                break;
+            case R.id.tv_vendredi:
+                changeWeight(5);
                 break;
         }
     }
@@ -188,8 +217,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.spinner_choix_semaine:
                 Toast.makeText(mContext, "Tu as choisi ：" + parent.getItemAtPosition(position).toString(),
                         Toast.LENGTH_SHORT).show();
-                semaine = position + 1;
+                weekSelected = position + 1;
                 addCoursDeSemaine();
+                if (weekSelected == currentWeek) {
+                    switch (dayOfWeek) {
+                        case 1:
+                            tv_lundi.setTextColor(ContextCompat.getColor(this, R.color.colorFirst));
+                            break;
+                        case 2:
+                            tv_mardi.setTextColor(ContextCompat.getColor(this, R.color.colorFirst));
+                            break;
+                        case 3:
+                            tv_mercredi.setTextColor(ContextCompat.getColor(this, R.color.colorFirst));
+                            break;
+                        case 4:
+                            tv_jeudi.setTextColor(ContextCompat.getColor(this, R.color.colorFirst));
+                            break;
+                        case 5:
+                            tv_vendredi.setTextColor(ContextCompat.getColor(this, R.color.colorFirst));
+                            break;
+                    }
+                }
                 break;
         }
     }
@@ -273,7 +321,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /*
          指定高度和宽度
          */
-        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(gridWidth, gridHeight * (end - start + 1));
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, gridHeight * (end - start + 1));
         Log.i(tag, Integer.toString(gridWidth));
         Log.i(tag, Integer.toString(gridHeight));
         /*
@@ -349,7 +397,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         deleteCours();
         setTitle();
 
-        ArrayList<Cour> cours = httpUtil.getCoursDeSemaine(semaine);
+        ArrayList<Cour> cours = httpUtil.getCoursDeSemaine(weekSelected);
         if (cours.isEmpty())
             addPasDeCour();
         else {
@@ -396,7 +444,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setTitle() {
-        title = HttpUtil.getTitle(semaine);
+        title = HttpUtil.getTitle(weekSelected);
 
         tv_annee.setText(title[0]);
         tv_lundi.setText(title[1]);
@@ -411,7 +459,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             switch (msg.what) {
                 case ADDLISTENER:
                     spinner.setOnItemSelectedListener(MainActivity.this);
-                    spinner.setSelection(semaine - 1, true);
+                    spinner.setSelection(currentWeek - 1, true);
                     break;
                 case STOPWELCOME:
                     layout_main_welcome.setVisibility(View.GONE);
@@ -419,5 +467,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
     };
+
+    private void changeWeight(int day) {
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.MATCH_PARENT, 1.0f);
+        tv_lundi.setLayoutParams(lp);
+        tv_mardi.setLayoutParams(lp);
+        tv_mercredi.setLayoutParams(lp);
+        tv_jeudi.setLayoutParams(lp);
+        tv_vendredi.setLayoutParams(lp);
+
+        layoutLundi.setLayoutParams(lp);
+        layoutMardi.setLayoutParams(lp);
+        layoutMercredi.setLayoutParams(lp);
+        layoutJeudi.setLayoutParams(lp);
+        layoutVendredi.setLayoutParams(lp);
+
+        lp = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.MATCH_PARENT, 1.3f);
+        switch (day) {
+            case 1:
+                tv_lundi.setLayoutParams(lp);
+                layoutLundi.setLayoutParams(lp);
+                break;
+            case 2:
+                tv_mardi.setLayoutParams(lp);
+                layoutMardi.setLayoutParams(lp);
+                break;
+            case 3:
+                tv_mercredi.setLayoutParams(lp);
+                layoutMercredi.setLayoutParams(lp);
+                break;
+            case 4:
+                tv_jeudi.setLayoutParams(lp);
+                layoutJeudi.setLayoutParams(lp);
+                break;
+            case 5:
+                tv_vendredi.setLayoutParams(lp);
+                layoutVendredi.setLayoutParams(lp);
+                break;
+        }
+    }
 
 }

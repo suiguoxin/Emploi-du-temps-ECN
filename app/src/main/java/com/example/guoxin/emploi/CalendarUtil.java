@@ -15,6 +15,7 @@ public class CalendarUtil {
 
     private static Calendar c;
     private int currentWeekOfYear;
+    private int dayOfWeek;//1->7 lundi ->dimanche
     private String currentMondyOfWeek;
 
     public CalendarUtil(){
@@ -33,7 +34,7 @@ public class CalendarUtil {
         Log.i("today", dateFormat.format(c.getTime()));
 
         //la date du lundi de cette semaine
-        int dayOfWeek = c.get(Calendar.DAY_OF_WEEK) - 1;
+        dayOfWeek = c.get(Calendar.DAY_OF_WEEK) - 1;
         Log.i("dayOfWeek", Integer.toString(dayOfWeek));
         if (dayOfWeek == 0) {
             dayOfWeek = 7;
@@ -46,6 +47,7 @@ public class CalendarUtil {
 
         currentWeekOfYear = c.get(Calendar.WEEK_OF_YEAR);
         Log.i("week", Integer.toString(currentWeekOfYear));
+
     }
 
     public int getMaxWeekNumOfYear() {
@@ -58,5 +60,9 @@ public class CalendarUtil {
 
     public int getCurrentWeekOfYear() {
         return currentWeekOfYear;
+    }
+
+    public int getDayOfWeek(){
+        return dayOfWeek;
     }
 }
