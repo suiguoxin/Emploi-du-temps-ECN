@@ -116,6 +116,10 @@
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/layout_welcome.xml",
+        "source": "/Users/Guoxin/Desktop/Emploi/app/src/main/res/layout/layout_welcome.xml"
+    },
+    {
         "merged": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/Guoxin/Desktop/Emploi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_toolbar.xml"
     },

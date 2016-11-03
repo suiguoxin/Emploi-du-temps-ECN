@@ -12,7 +12,10 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -28,6 +31,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     public static MainActivity instance;
     private Context mContext;
+    private LinearLayout layout_main_welcome;
     private LinearLayout layout_main_scroll;
     private RelativeLayout layout;
     private RelativeLayout layoutLundi;
@@ -61,25 +65,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String option = "INFO";
     private String groupeRSE = "M1";
 
-    private boolean modeDetail = true;
+    private boolean modeDetail = false;
 
     public String tag;
+    //
+    private static final int ADDLISTENER = 1;
+    //welcome animation
+    private static final int STOPWELCOME = 0;
+    private static final long WELCOMETIME = 2000;
+    private static boolean afficheWelcome = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        initWelcome();
         initData();
         initView();
         initEvent();
-        Log.i("onCreate", "start");
     }
 
-//    @Override
-//    protected void onResume() {
-//        recreate();
-//    }
+    private void initWelcome() {
+        layout_main_welcome = (LinearLayout) findViewById(R.id.layout_main_welcome);
+
+        if (afficheWelcome) {
+            Animation anim_window_outer = AnimationUtils.loadAnimation(this, R.anim.anim_window_outer);
+            layout_main_welcome.startAnimation(anim_window_outer);
+            Message msg = new Message();
+            msg.what = STOPWELCOME;
+            handler.sendMessageDelayed(msg, WELCOMETIME);
+        } else layout_main_welcome.setVisibility(View.GONE);
+    }
 
     private void initData() {
         instance = this;
@@ -122,8 +139,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinner = (Spinner) findViewById(R.id.spinner_choix_semaine);
         ArrayAdapter<String> myAdadpter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, mData);
         spinner.setAdapter(myAdadpter);
-        // Log.i("init1",Integer.toString(semaine));
-//        spinner.setSelection(semaine - 1, true);
     }
 
     private void initEvent() {
@@ -135,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                getMainLooper()
                 httpUtil = new HttpUtil(annee, groupe, option, groupeRSE);
                 Message msg = new Message();
-                msg.what = 0x123;
+                msg.what = ADDLISTENER;
 //                Bundle bundle = new Bundle();
 //                bundle.putInt(UPPER_NUM ,
 //                        Integer.parseInt(etNum.getText().toString()));
@@ -330,21 +345,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         layout.addView(tv);
     }
 
-    //    private void addCoursDeSemaine() {
-//        deleteCours();
-//        setTitle();
-//
-//        cours = httpUtil.getCoursDeSemaine(semaine);
-//        if (cours != null) {
-//            for (Cour c : cours) {
-//                addView(c);
-//
-////                Log.i("cour", c.category);
-////                Log.i("cour", c.room);
-////                Log.i("cour", Integer.toString(c.prettyWeeks));
-//            }
-//        } else addPasDeCour();
-//    }
     private void addCoursDeSemaine() {
         deleteCours();
         setTitle();
@@ -408,9 +408,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     final Handler handler = new Handler() {
         public void handleMessage(android.os.Message msg) {
-            if (msg.what == 0x123) {
-                spinner.setOnItemSelectedListener(MainActivity.this);
-                spinner.setSelection(semaine - 1, true);
+            switch (msg.what) {
+                case ADDLISTENER:
+                    spinner.setOnItemSelectedListener(MainActivity.this);
+                    spinner.setSelection(semaine - 1, true);
+                    break;
+                case STOPWELCOME:
+                    layout_main_welcome.setVisibility(View.GONE);
+                    break;
             }
         }
     };

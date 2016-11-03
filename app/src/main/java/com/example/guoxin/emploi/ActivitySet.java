@@ -39,7 +39,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
     private RelativeLayout layout_spinner_groupeRSE;
 
     private int choixAnnee = 1;
-    private int choixGroupe = 10;
+    private int choixGroupe = 5;
     private int choixOption = 0;
     private int choixGroupeRSE = 0;
 
@@ -57,7 +57,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
         mContext = ActivitySet.this;
 
         annees = new String[]{"Ei1", "Ei2+"};
-        groupes = new String[]{"A", "B", "C","D", "E", "F","G", "H", "I","J", "K", "L"};
+        groupes = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"};
         options = new String[]{"INFO", "RV", "SANTE", "ROBOTIQUE"};
         groupesRSE = new String[]{"M1", "M2", "M3", "M4"};
 
@@ -166,7 +166,8 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
 //                bd.putString("option", option);
 //                bd.putString("groupe", groupe);
 //                it.putExtras(bd);
-                MainActivity.instance.finish();
+                if (MainActivity.instance != null)
+                    MainActivity.instance.finish();
                 startActivity(it);
                 finish();
                 break;

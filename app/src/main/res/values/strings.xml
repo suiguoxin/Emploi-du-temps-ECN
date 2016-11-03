@@ -48,4 +48,8 @@
     <string name="version">Version</string>
     <string name="about">About</string>
 
+    <!--layout welcome-->
+    <string name="btn_welcome_set">Set</string>
+    <string name="btn_welcome_voir">Voir</string>
+
 </resources>

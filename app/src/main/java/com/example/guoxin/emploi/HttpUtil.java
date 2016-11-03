@@ -47,7 +47,7 @@ public class HttpUtil {
         this.option = option;
         this.groupeRSE = groupeRSE;
 
-        urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16696.xml"; //K
+        urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16691.xml"; //F
         urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16643.xml"; //INFO
         urlGroupeRSE = "http://website.ec-nantes.fr/sites/edtemps/g16568.xml"; //M1
     }
@@ -250,6 +250,13 @@ public class HttpUtil {
         if (elementEndtime != null)
             textEndtime = elementEndtime.text();
 
+        Element elementModule = event.select("module").first();
+        String textMatiere = null;
+        if (elementModule != null) {
+            Element elementMatiere = elementModule.select("item").first();
+            textMatiere = elementMatiere.text();
+        }
+
         Element elementRoom = event.select("room").first();
         String textSalle = null;
         if (elementRoom != null) {
@@ -257,7 +264,7 @@ public class HttpUtil {
             textSalle = elementSalle.text();
         }
 
-        Cour cour = new Cour(Integer.parseInt(textDay), Integer.parseInt(textPrettyWeeks), textCategory, textNotes,
+        Cour cour = new Cour(Integer.parseInt(textDay), Integer.parseInt(textPrettyWeeks), textCategory, textMatiere, textNotes,
                 textStarttime, textEndtime, textSalle);
         return cour;
     }

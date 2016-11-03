@@ -9,6 +9,7 @@ public class Cour {
     public int day;
     public int prettyWeeks;
     public String category;
+    public String matiere;
     public String notes;
     public String starttime;
     public String endtime;
@@ -18,13 +19,14 @@ public class Cour {
     public String textShort;
     private boolean visible;
 
-    public Cour(int day, int prettyWeeks, String category, String notes, String starttime, String endtime, String room) {
+    public Cour(int day, int prettyWeeks, String category, String matiere, String notes, String starttime, String endtime, String room) {
         /**
          * day = 0 lundi , day = 3 jeudi
          */
         this.day = day;
         this.prettyWeeks = prettyWeeks;
         this.category = category;
+        this.matiere = matiere;
         this.notes = notes;
         this.starttime = starttime;
         this.endtime = endtime;
@@ -45,16 +47,22 @@ public class Cour {
             this.notes = this.notes.trim();
         }
         //set visibility and text
-        if ((this.category.equals("Default")) && (this.notes == null || this.notes.equals(empty))) {
+        if ((this.category.equals("Default"))&& (this.matiere == null || this.matiere.equals(empty)) && (this.notes == null || this.notes.equals(empty))) {
             this.visible = false;
             this.textLong = null;
             this.textShort = null;
         } else {
             this.visible = true;
+            this.textLong = "";
             //test if category exist
-            if (this.category.equals("Default"))
-                this.textLong = this.notes;
-            else this.textLong = this.category + '\n' + this.notes;
+            if (!this.category.equals("Default"))
+                this.textLong = this.textLong + this.category;
+            //test if matiere exist
+            if (this.matiere != null && (!this.matiere.equals(empty)))
+                this.textLong = this.textLong + '\n' + this.matiere;
+            //test if notes exist
+            if (this.notes != null && (!this.notes.equals(empty)))
+                this.textLong = this.textLong + '\n' + this.notes;
             //test if room exist
             if (this.room != null && (!this.room.equals(empty)))
                 this.textLong = this.textLong + '\n' + this.room;

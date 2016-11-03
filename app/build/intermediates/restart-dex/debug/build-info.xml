@@ -4,19 +4,19 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="19928623594733"
+    timestamp="7162253626726"
     token="-2159356518915172752"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="211" />
+        duration="78" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="23" />
     <task
         name="verifier"
         duration="2" />
@@ -26,14 +26,24 @@
         type="DEX" />
 
     <build
-        timestamp="19387785317689"
+        timestamp="5025839970294"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Guoxin/Desktop/Emploi/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="19928623594733"
+        timestamp="5820725946824"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="7162253626726"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
