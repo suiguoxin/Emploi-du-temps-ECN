@@ -1,7 +1,7 @@
-#Thu Nov 03 20:23:47 CET 2016
-base.0=/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ba1ed455cbe771ff3c57a19c5aa4c2e5ab2e1b2
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6c1b1bf4c1883ac4dad04aa3c7acae62f6bfc95/classes.dex
-base.1=/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6c1b1bf4c1883ac4dad04aa3c7acae62f6bfc95
-file.0=/Users/Guoxin/Desktop/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ba1ed455cbe771ff3c57a19c5aa4c2e5ab2e1b2/classes.dex
+#Thu Jan 19 13:50:25 CET 2017
+base.0=/Users/Guoxin/Documents/Development/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e702c04e9a5652add617a1f0ce37d2a3267bc25e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Guoxin/Documents/Development/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_347d99de3d431aad864833f49f6252d98a1342c5/classes.dex
+base.1=/Users/Guoxin/Documents/Development/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_347d99de3d431aad864833f49f6252d98a1342c5
+file.0=/Users/Guoxin/Documents/Development/Emploi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e702c04e9a5652add617a1f0ce37d2a3267bc25e/classes.dex

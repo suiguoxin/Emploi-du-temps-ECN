@@ -4,14 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <!--welcome    -->
-    <LinearLayout
-        android:id="@+id/layout_main_welcome"
-        android:orientation="vertical"
-        android:gravity="center|center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/welcome">
-    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layout_main_welcome"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center|center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/welcome">-->
+    <!--</LinearLayout>-->
     <!--menu-->
     <include layout="@layout/layout_main_menu" />
     <!--date-->

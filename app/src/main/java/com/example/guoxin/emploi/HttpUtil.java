@@ -90,7 +90,7 @@ public class HttpUtil {
                 urlGroupe = "http://website.ec-nantes.fr/sites/edtemps/p16697.xml";
 
 
-        } else if (annee.equals("Ei2+")) { //Ei2+
+        } else if (annee.equals("Ei2")||annee.equals("Ei3+")) { //Ei2 ou Ei3+
             if (option.equals("INFO")) //INFO
                 urlOption = "http://website.ec-nantes.fr/sites/edtemps/p16643.xml";
             else if (option.equals("RV")) //RV
@@ -139,7 +139,6 @@ public class HttpUtil {
 ////        }
 //
 //    }
-
 
 
     public Cour[] getCoursDeSemaine(int semaine, String choix) {
@@ -193,7 +192,15 @@ public class HttpUtil {
         //events de la semaine
         String requete = String.format("event[date=%s]", mondyOfWeek);
 
-        if (annee.equals("Ei2+")) {
+        if (annee.equals("Ei1")) {
+            Elements eventsDeSemaineGroupe = docGroupe.select(requete);
+            for (Element event : eventsDeSemaineGroupe) {
+                Cour cour = getCour(event);
+                if (cour.getVisible()) {
+                    cours.add(cour);
+                }
+            }
+        } else if (annee.equals("Ei2")) {
             Elements eventsDeSemaineOption = docOption.select(requete);
             for (Element event : eventsDeSemaineOption) {
                 Cour cour = getCour(event);
@@ -208,9 +215,9 @@ public class HttpUtil {
                     cours.add(cour);
                 }
             }
-        } else if (annee.equals("Ei1")) {
-            Elements eventsDeSemaineGroupe = docGroupe.select(requete);
-            for (Element event : eventsDeSemaineGroupe) {
+        } else if (annee.equals("Ei3+")) {
+            Elements eventsDeSemaineOption = docOption.select(requete);
+            for (Element event : eventsDeSemaineOption) {
                 Cour cour = getCour(event);
                 if (cour.getVisible()) {
                     cours.add(cour);

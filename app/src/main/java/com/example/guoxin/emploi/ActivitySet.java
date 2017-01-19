@@ -57,7 +57,7 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
     private void initData() {
         mContext = ActivitySet.this;
 
-        annees = new String[]{"Ei1", "Ei2+"};
+        annees = new String[]{"Ei1", "Ei2", "Ei3+"};
         groupes = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"};
         options = new String[]{"INFO", "RV", "SANTE", "ROBOTIQUE"};
         groupesRSE = new String[]{"M1", "M2", "M3", "M4"};
@@ -123,7 +123,12 @@ public class ActivitySet extends AppCompatActivity implements AdapterView.OnItem
                     layout_spinner_groupe.setVisibility(View.GONE);
                     layout_spinner_option.setVisibility(View.VISIBLE);
                     layout_spinner_groupeRSE.setVisibility(View.VISIBLE);
+                } else if (choixAnnee == 2) {
+                    layout_spinner_groupe.setVisibility(View.GONE);
+                    layout_spinner_option.setVisibility(View.VISIBLE);
+                    layout_spinner_groupeRSE.setVisibility(View.GONE);
                 }
+
                 break;
             case R.id.spinner_groupe:
                 Toast.makeText(mContext, "Option ：" + parent.getItemAtPosition(position).toString(),

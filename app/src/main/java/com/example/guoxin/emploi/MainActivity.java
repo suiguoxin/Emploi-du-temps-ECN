@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int currentWeek;
     private String[] title;
 
-    private String annee = "Ei2+";
+    private String annee = "Ei2";
     private String groupe = "A";
     private String option = "INFO";
     private String groupeRSE = "M1";
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initWelcome() {
-        layout_main_welcome = (LinearLayout) findViewById(R.id.layout_main_welcome);
+        layout_main_welcome = (LinearLayout) findViewById(R.id.layout_welcome);
 
         if (afficheWelcome) {
             Animation anim_window_outer = AnimationUtils.loadAnimation(this, R.anim.anim_window_outer);
